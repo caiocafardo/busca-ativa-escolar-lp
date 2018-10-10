@@ -70,7 +70,7 @@ $(document).ready(function () {
         $("#acessar_plataforma").attr("href", "//panel.busca-ativa-escolar.test");
     }
     if ('site.testes.buscaativaescolar.org.br' === location.host) {
-        $("#acessar_plataforma").attr("href", "//plataforma.testes.buscaativaescolar.org.br");
+        $("#acessar_plataforma").attr("href", "https://plataforma.testes.buscaativaescolar.org.br");
     }
 
 });
