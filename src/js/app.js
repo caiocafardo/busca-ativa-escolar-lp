@@ -65,7 +65,7 @@ $(document).ready(function () {
         uf_option.text = uf.sigla;
         $estados.append(uf_option);
     });
-
+    //Altera a url dinamicamente de acordo com o ambiente.
     if ('buscaativaescolar.test' === location.host) {
         $("#acessar_plataforma").attr("href", "//panel.busca-ativa-escolar.test");
     }
