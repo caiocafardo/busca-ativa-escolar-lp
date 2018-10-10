@@ -1,1 +1,0 @@
-git checkout homolog && git pull origin homolog
