@@ -202,4 +202,47 @@
       padding-top: 5px;
     }
 
+    .chart {
+      display: flex;
+
+      .canvas-con-inner {
+        flex: 1;
+        height: 100%;
+      }
+
+      .legend{
+        flex: 1;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+
+        ul {
+          list-style: none;
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 4px;
+
+          span {
+            display: inline-block;
+          }
+
+          span.chart-legend {
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+          }
+        }
+
+      }
+
+    }
+
+    @media (max-width: 400px) {
+      .chart {
+        display: block;
+      }
+    }
+
 }

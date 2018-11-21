@@ -147,8 +147,12 @@
 				<br/><br/>
 
 				<div class="chart">
-					<canvas id="chartCity" height="400" width="1200"></canvas>
+					<div class="canvas-con-inner">
+						<canvas id="chartCity" height="200" width="375"></canvas>
+					</div>
+					<div id="my-legend" class="legend"></div>
 				</div>
+
 
 			</div>
 
@@ -261,55 +265,26 @@
             };
 
             var options_graph = {
-                responsive: false,
-                legend: {
-                    responsive: true,
-                    position: 'left',
-                    display: true,
-                    usePointStyle: false,
-                    labels: {
-                        fontSize: 13,
-                        boxWidth: 10,
-                        generateLabels: function (chart) {
-
-                            var data = chart.data;
-
-                            if (data.labels.length && data.datasets.length) {
-
-                                return data.labels.map(function (label, i) {
-                                    var meta = chart.getDatasetMeta(0);
-                                    var ds = data.datasets[0];
-                                    var arc = meta.data[i];
-                                    var custom = arc && arc.custom || {};
-                                    var getValueAtIndexOrDefault = Chart.helpers.getValueAtIndexOrDefault;
-                                    var arcOpts = chart.options.elements.arc;
-                                    var fill = custom.backgroundColor ? custom.backgroundColor : getValueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
-                                    var stroke = custom.borderColor ? custom.borderColor : getValueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
-                                    var bw = custom.borderWidth ? custom.borderWidth : getValueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
-
-                                    var value = chart.config.data.datasets[arc._datasetIndex].data[arc._index];
-
-                                    return {
-                                        text: label + ": " + value,
-                                        fillStyle: fill,
-                                        strokeStyle: stroke,
-                                        lineWidth: bw,
-                                        hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
-                                        index: i
-                                    };
-
-                                });
-
-                            } else {
-                                return [];
-                            }
-                        }
-                    },
-                    legendCallback: function(chart) {
-
+				responsive: true,
+				legend: false,
+				legendCallback: function(chart) {
+                    var legendHtml = [];
+                    legendHtml.push('<ul>');
+                    var item = chart.data.datasets[0];
+                    for (var i=0; i < item.data.length; i++) {
+                        legendHtml.push('<li>');
+                        legendHtml.push('<span class="chart-legend" style="background-color:' + item.backgroundColor[i] +'"></span>');
+                        legendHtml.push('<span class="chart-legend-label-text"> <strong>' + item.data[i] + ' alertas </strong> - '+chart.data.labels[i]+'</span>');
+                        legendHtml.push('</li>');
                     }
-                }
-            };
+
+                    legendHtml.push('</ul>');
+                    return legendHtml.join("");
+                },
+                tooltips: {
+                    	enabled: true
+                    }
+            }
 
             var backgroundColor = [
                 '#fbe50f',
@@ -332,8 +307,10 @@
 			];
 
             function load_data(chartCity){
+
                 $('.loading').css('display','block');
                 $('.title_state').css('display','none');
+
                 $.ajax(
                     {
                         url: url_country_report,
@@ -364,7 +341,9 @@
                                 });
                             });
 
+							chartCity.options = options_graph;
                             chartCity.update();
+                            $('#my-legend').html(chartCity.generateLegend());
 
                             $('.loading').css('display','none');
                         }
@@ -404,7 +383,9 @@
 									});
 								});
 
-								chartCity.update();
+                                chartCity.options = options_graph;
+                                chartCity.update();
+                                $('#my-legend').html(chartCity.generateLegend());
 
 								$('.loading').css('display','none');
 							}
@@ -451,7 +432,9 @@
                                     });
                                 });
 
+                                chartCity.options = options_graph;
                                 chartCity.update();
+                                $('#my-legend').html(chartCity.generateLegend());
 
                                 $('.title_state').css('display','block');
                                 $('.loading').css('display','none');
@@ -468,17 +451,9 @@
 
             $(document).ready(function() {
 
-                if ($(window).width() <= 768) {
-                    options_graph.responsive = true,
-					options_graph.legend.position = 'bottom',
-                    options_graph.legend.labels.fontSize = 10,
-                    $("#chartCity").attr('width', 300);
-                    $("#chartCity").attr('height', 600);
-				}
-
                 var chartCity = new Chart(document.getElementById("chartCity"), {
                     type: 'doughnut',
-                    options: options_graph,
+                    options: {},
                     backgroundColor: backgroundColor,
                     data: {
                         datasets: [{
