@@ -1226,6 +1226,30 @@ footer .footer--wrapper {
     color: white;
     padding-bottom: 5px;
     padding-top: 5px; }
+  .city-wrapper .chart {
+    display: flex; }
+    .city-wrapper .chart .canvas-con-inner {
+      flex: 1;
+      height: 100%; }
+    .city-wrapper .chart .legend {
+      flex: 1;
+      font-family: "Raleway", sans-serif;
+      font-size: 13px; }
+      .city-wrapper .chart .legend ul {
+        list-style: none; }
+      .city-wrapper .chart .legend li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px; }
+        .city-wrapper .chart .legend li span {
+          display: inline-block; }
+        .city-wrapper .chart .legend li span.chart-legend {
+          width: 10px;
+          height: 10px;
+          margin-right: 10px; }
+  @media (max-width: 400px) {
+    .city-wrapper .chart {
+      display: block; } }
 
 /* Absolute Center Spinner */
 .loading {
