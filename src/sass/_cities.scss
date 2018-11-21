@@ -204,6 +204,9 @@
 
     .chart {
       display: flex;
+      align-items:center;
+      justify-content: center;
+      position: relative;
 
       .canvas-con-inner {
         flex: 1;
