@@ -29,12 +29,12 @@
 	.info {
 		@extend .clearfix;
 
-		background: image_url('info-desk.png') no-repeat;
+		background: image_url('info/info-desk.png') no-repeat;
 		background-position: center center;
 
 		width: 100%;
 		max-width: 740px;
-		height: 1370px;
+		height: 1600px;
 
 		display: block;
 		margin: 50px auto 200px 200px;
@@ -66,7 +66,7 @@
 			}
 		}
 
-		.info--pref, .info--gest, .info--coord, .info--sup, .info--age, .info--tec {
+		.info--pref, .info--gest, .info--coord, .info--sup, .info--age, .info--tec, .info--reu {
 			@extend .clearfix;
 
 			position: absolute;
@@ -78,7 +78,7 @@
 				font-weight: 300;
 				line-height: 1.5;
 
-				@media (max-width: 450px) { font-size: 12px; line-height: 1.2; }
+				@media (max-width: 450px) { font-size: 12px; line-height: 1.5; }
 
 				span {
 					font-weight: bold;
@@ -92,7 +92,8 @@
 			strong { color: $blue; }
 		}
 
-		.info--pref, .info--coord, .info--age { text-align: right; }
+		.info--pref, .info--coord, .info--age, .info--reu { text-align: right; }
+
 		.info--gest, .info--sup, .info--tec { text-align: left; }
 
 		.info--pref {
@@ -116,6 +117,7 @@
 
 			span { color: #384a57; }
 		}
+
 		.info--gest {
 			width: 340px;
 			height: 120px;
@@ -137,6 +139,7 @@
 
 			span { color: #f04f5b; }
 		}
+
 		.info--coord {
 			width: 260px;
 			height: 160px;
@@ -158,11 +161,34 @@
 
 			span { color: #2374a9; }
 		}
+
+		.info--reu {
+			width: 350px;
+			height: 220px;
+
+			top: 500px;
+			left: 500px;
+
+			@media (max-width: 1120px) {
+				text-align: center !important;
+
+				position: relative !important;
+
+				top: 0 !important;
+				left: 0 !important;
+
+				width: 100% !important;
+				float: left !important;
+			}
+
+			span { color: #2374a9; }
+		}
+
 		.info--sup {
 			width: 340px;
 			height: 180px;
 
-			top: 610px;
+			top: 800px;
 			left: 520px;
 
 			@media (max-width: 1120px) {
@@ -179,27 +205,29 @@
 
 			span { color: #f78726; }
 		}
+
 		.info--age {
 			width: 250px;
 			height: 90px;
 
-			top: 1070px;
+			top: 1250px;
 			left: -160px;
 
 			@media (max-width: 1120px) {
 				width: 270px;
-				top: 2650px;
+				top: 2600px;
 			}
 
 			@media (max-width: 450px) { top: 1850px; }
 
 			span { color: #61618a; }
 		}
+
 		.info--tec {
 			width: 370px;
 			height: 105px;
 
-			top: 1350px;
+			top: 1550px;
 			left: 215px;
 
 			@media (max-width: 1120px) {
