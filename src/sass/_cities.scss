@@ -1,0 +1,251 @@
+.city-wrapper{
+
+    @extend .clearfix;
+
+    width: 100%;
+    max-width: 1200px;
+
+    display: block;
+    position: relative;
+
+    margin: 0 auto;
+
+    @media (max-width: $baseWidth) {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+    .c-blue{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+
+    .form-wrapper{
+      width: 95%;
+      max-width: 540px;
+
+      display: block;
+      position: relative;
+
+      margin: 0 auto;
+
+    }
+
+    form {
+      ::-webkit-input-placeholder { color: $blue; }
+      ::-moz-placeholder { color: $blue; }
+      :-ms-input-placeholder { color: $blue; }
+      :-moz-placeholder { color: $blue; }
+
+      .form-row {
+        @extend .clearfix;
+      }
+
+      .field-full, .field-half, .field, .field-text {
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb( 89, 196, 201 );
+
+        border-radius: 6px 6px 6px 6px;
+        -moz-border-radius: 6px 6px 6px 6px;
+        -webkit-border-radius: 6px 6px 6px 6px;
+
+        background-color: $grey;
+
+        padding: 0 15px;
+
+        display: block;
+
+        float: left;
+
+        font-size: 15px;
+        font-family: $fontSec;
+
+        color: $blue;
+
+        line-height: 1.667;
+        text-align: left;
+
+        outline: none;
+        -webkit-appearance:none;
+      }
+
+      .field-full, .field-half, .field-text { margin: 10px; }
+
+      .field-full, .field-half, .field { height: 50px; }
+      .field-full { width: calc(100% - 20px); }
+      .field-half {
+        width: calc(50% - 20px);
+        @media (max-width: 500px) { width: calc(100% - 20px ); }
+      }
+      .field { width: 100%; }
+
+      select { background: transparent;  border: 0; cursor: pointer; }
+
+      .select {
+        @extend .clearfix;
+        position: relative;
+        display: table;
+        float: left;
+        margin: 10px;
+      }
+
+    }
+
+    .title_state{
+      font-family: 'Helvetica Rounded LT Std';
+      color: #019cde;
+      font-size: 15px;
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 5px;
+    }
+
+    .alerts{
+
+      color: #019cde;
+      font-family: 'Helvetica Rounded LT Std';
+      margin-bottom: 10px;
+
+      .header{
+        background-color: #019cde;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+
+      .body {
+        display: flex;
+
+        .section{
+
+          flex: 1;
+          text-align: center;
+          background-color: #DDDDDD;
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          .label{
+            font-size: 15px;
+          }
+
+          .label-total{
+            font-size: 30px;
+          }
+
+        }
+
+      }
+
+      @media (max-width: 400px) {
+        .body {
+          display: block;
+        }
+      }
+
+    }
+
+    .cases{
+
+      color: #019cde;
+      font-family: 'Helvetica Rounded LT Std';
+      margin-bottom: 10px;
+
+      .header{
+        background-color: #019cde;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+
+      .body {
+        display: flex;
+
+        .section{
+          flex: 1;
+          text-align: center;
+          background-color: #DDDDDD;
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          .label{
+            font-size: 15px;
+          }
+
+          .label-total{
+            font-size: 30px;
+          }
+
+        }
+
+      }
+
+      @media (max-width: 400px) {
+        .body {
+          display: block;
+        }
+      }
+
+    }
+
+    .title_chart{
+      font-family: 'Helvetica Rounded LT Std';
+      background-color: #019cde;
+      font-size: 15px;
+      text-align: center;
+      color: white;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+
+    .chart {
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      position: relative;
+
+      .canvas-con-inner {
+        flex: 1;
+        height: 100%;
+      }
+
+      .legend{
+        flex: 1;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+
+        ul {
+          list-style: none;
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 4px;
+
+          span {
+            display: inline-block;
+          }
+
+          span.chart-legend {
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+          }
+        }
+
+      }
+
+    }
+
+    @media (max-width: 400px) {
+      .chart {
+        display: block;
+      }
+    }
+
+}
