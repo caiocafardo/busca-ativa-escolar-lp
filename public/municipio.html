@@ -81,10 +81,7 @@
 		<section id="info">
 			<div class="city-wrapper">
 
-				<h2 class="c-blue">
-					Quadro geral do <br/>
-					<span>Busca Ativa Escolar</span>
-				</h2>
+				<h2 class="c-blue"> Quadro geral do <br/> <span>Busca Ativa Escolar</span></h2>
 
 				<div class="form-wrapper">
 
@@ -103,56 +100,63 @@
 						</div>
 					</form>
 
+					<div class="box_alert_danger" style="display: none">
+						Este município ainda não fez adesão ao Busca Ativa Escolar!
+					</div>
+
+					<div class="box_alert_success" style="display: none">
+						Aderiu em <span id="created"></span> - <span id="status"></span>
+					</div>
+
 				</div>
 
-				<div class="title_state" style="display: none">
-					Aderiu em <span id="created"></span> - <span id="status"></span>
-				</div>
-
-				<div class="alerts">
-					<div class="header">ALERTAS</div>
-					<div class="body">
-						<div class="section">
-							<span class="label">APROVADOS</span>
-							<span class="label-total" id="approved">0</span>
-						</div>
-						<div class="section">
-							<span class="label">PENDENTES</span>
-							<span class="label-total" id="pending">0</span>
-						</div>
-						<div class="section">
-							<span class="label">REJEITADOS</span>
-							<span class="label-total" id="rejected">0</span>
+				<div class="data_wrapper" style="display: none">
+					
+					<div class="alerts">
+						<div class="header">ALERTAS</div>
+						<div class="body">
+							<div class="section">
+								<span class="label">APROVADOS</span>
+								<span class="label-total" id="approved">0</span>
+							</div>
+							<div class="section">
+								<span class="label">PENDENTES</span>
+								<span class="label-total" id="pending">0</span>
+							</div>
+							<div class="section">
+								<span class="label">REJEITADOS</span>
+								<span class="label-total" id="rejected">0</span>
+							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="cases">
-					<div class="header">CASOS</div>
-					<div class="body">
-						<div class="section">
-							<span class="label">EM ANDAMENTO</span>
-							<span class="label-total" id="in_progress">0</span>
-						</div>
-						<div class="section">
-							<span class="label">(RE)MATRÍCULA</span>
-							<span class="label-total" id="enrollment">0</span>
+	
+					<div class="cases">
+						<div class="header">CASOS</div>
+						<div class="body">
+							<div class="section">
+								<span class="label">EM ANDAMENTO</span>
+								<span class="label-total" id="in_progress">0</span>
+							</div>
+							<div class="section">
+								<span class="label">(RE)MATRÍCULA</span>
+								<span class="label-total" id="enrollment">0</span>
+							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="title_chart">
-					MOTIVOS DOS ALERTAS
-				</div>
-				<br/><br/>
-
-				<div class="chart">
-					<div class="canvas-con-inner">
-						<canvas id="chartCity" height="200" width="375"></canvas>
+	
+					<div class="title_chart">
+						MOTIVOS DOS ALERTAS
 					</div>
-					<div id="my-legend" class="legend"></div>
-				</div>
+					<br/><br/>
+	
+					<div class="chart">
+						<div class="canvas-con-inner">
+							<canvas id="chartCity" height="200" width="375"></canvas>
+						</div>
+						<div id="my-legend" class="legend"></div>
+					</div>
 
+				</div>
 
 			</div>
 
@@ -309,19 +313,19 @@
             function load_data(chartCity){
 
                 $('.loading').css('display','block');
-                $('.title_state').css('display','none');
+                $('.box_alert_success').css('display','none');
 
                 $.ajax(
                     {
                         url: url_country_report,
                         success: function(result){
 
-                            $("#approved").text(result._data.alerts._approved);
-                            $("#pending").text(result._data.alerts._pending);
-                            $("#rejected").text(result._data.alerts._rejected);
+                            $("#approved").text(0 /*result._data.alerts._approved*/);
+                            $("#pending").text(0 /*result._data.alerts._pending*/);
+                            $("#rejected").text(0 /*result._data.alerts._rejected*/);
 
-                            $("#in_progress").text(result._data.cases._in_progress);
-                            $("#enrollment").text(result._data.cases._enrollment);
+                            $("#in_progress").text(0 /*result._data.cases._in_progress*/);
+                            $("#enrollment").text(0 /*result._data.cases._enrollment*/);
 
                             $('#uf').empty();
                             $('#uf').append("<option value=\"\">Todos os estados</option>");
@@ -329,23 +333,25 @@
                                 $('#uf').append("<option value=\""+current+"\">"+current+"</option>");
                             });
 
-                            chartCity.data.labels = [];
-                            chartCity.data.datasets.forEach((dataset) => {
-                                dataset.data = [];
-                            });
+                            // chartCity.data.labels = [];
+                            // chartCity.data.datasets.forEach((dataset) => {
+                            //     dataset.data = [];
+                            // });
 
-                            result._data.causes.forEach( function (current) {
-                                chartCity.data.labels.push(current.cause);
-                                chartCity.data.datasets.forEach((dataset) => {
-                                    dataset.data.push(current.qtd);
-                                });
-                            });
+                            // result._data.causes.forEach( function (current) {
+                            //     chartCity.data.labels.push(current.cause);
+                            //     chartCity.data.datasets.forEach((dataset) => {
+                            //         dataset.data.push(current.qtd);
+                            //     });
+                            // });
 
-							chartCity.options = options_graph;
-                            chartCity.update();
-                            $('#my-legend').html(chartCity.generateLegend());
+							// chartCity.options = options_graph;
+                            // chartCity.update();
+
+                            // $('#my-legend').html(chartCity.generateLegend());
 
                             $('.loading').css('display','none');
+							$('.data_wrapper').css('display','none');
                         }
                     }
                 );
@@ -357,7 +363,8 @@
             	if( dados.uf != "" ){
 
 					$('.loading').css('display','block');
-                    $('.title_state').css('display','none');
+                    $('.box_alert_success').css('display','none');
+					$('.box_alert_danger').css('display','none');
 
 					$.ajax(
 						{
@@ -388,6 +395,7 @@
                                 $('#my-legend').html(chartCity.generateLegend());
 
 								$('.loading').css('display','none');
+								$('.data_wrapper').css('display','block');
 							}
 						}
 					);
@@ -403,42 +411,56 @@
                 if( dados.city != "" ){
 
                     $('.loading').css('display','block');
-                    $('.title_state').css('display','none');
+                    $('.box_alert_success').css('display','none');
 
                     $.ajax(
                         {
                             url: url_city_report,
                             data: dados,
-                            success: function(result){
+                            
+							success: function(result){
 
-                                $('#approved').text(result._data.alerts._approved);
-                                $('#pending').text(result._data.alerts._pending);
-                                $('#rejected').text(result._data.alerts._rejected);
-                                $('#in_progress').text(result._data.cases._in_progress);
-                                $('#enrollment').text(result._data.cases._enrollment);
-                                $('#created').text(result._data.data_city.created);
-                                $('#status').text(result._data.data_city.status);
+								if( result._data.data_city != null){
 
+									$('#approved').text(result._data.alerts._approved);
+									$('#pending').text(result._data.alerts._pending);
+									$('#rejected').text(result._data.alerts._rejected);
+									$('#in_progress').text(result._data.cases._in_progress);
+									$('#enrollment').text(result._data.cases._enrollment);
+									$('#created').text(result._data.data_city.created);
+									$('#status').text(result._data.data_city.status);
 
-                                chartCity.data.labels = [];
-                                chartCity.data.datasets.forEach((dataset) => {
-                                    dataset.data = [];
-                                });
+									chartCity.data.labels = [];
+									chartCity.data.datasets.forEach((dataset) => {
+										dataset.data = [];
+									});
 
-                                result._data.causes.forEach( function (current) {
-                                    chartCity.data.labels.push(current.cause);
-                                    chartCity.data.datasets.forEach((dataset) => {
-                                        dataset.data.push(current.qtd);
-                                    });
-                                });
+									result._data.causes.forEach( function (current) {
+										chartCity.data.labels.push(current.cause);
+										chartCity.data.datasets.forEach((dataset) => {
+											dataset.data.push(current.qtd);
+										});
+									});
 
-                                chartCity.options = options_graph;
-                                chartCity.update();
-                                $('#my-legend').html(chartCity.generateLegend());
+									chartCity.options = options_graph;
+									chartCity.update();
 
-                                $('.title_state').css('display','block');
-                                $('.loading').css('display','none');
+									$('#my-legend').html(chartCity.generateLegend());
+									
+									$('.box_alert_success').css('display','block');
+									$('.data_wrapper').css('display','block');
+									$('.box_alert_danger').css('display','none');
+									$('.loading').css('display','none');
+							
+								}else{
+
+									$('.data_wrapper').css('display','none');
+									$('.box_alert_danger').css('display','block');
+									$('.loading').css('display','none');
+								
+								}
                             }
+
                         }
                     );
 
@@ -489,7 +511,7 @@
 
                 $('#city').on('change', function () {
                     var selectedCity = $(this).children("option:selected").val();
-                    var dados = {'city': selectedCity };
+                    var dados = { 'city': selectedCity, 'uf': selectedUf };
                     load_data_city(dados, chartCity, selectedUf);
                 });
 

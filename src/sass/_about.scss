@@ -1,4 +1,17 @@
 .about--wrapper {
+
+	.buttons{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.button{
+		display: inline-block;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
 	@extend .clearfix;
 
 	width: 95%;
@@ -13,4 +26,5 @@
 		padding-left: 15px !important;
 		padding-right: 15px !important;
 	}
+	
 }
