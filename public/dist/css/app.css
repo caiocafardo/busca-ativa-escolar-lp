@@ -1214,11 +1214,11 @@ footer .footer--wrapper {
     margin-top: 10px; }
     .city-wrapper .alerts .header {
       background-color: #019cde;
-      font-size: 15px;
+      font-size: 30px;
       text-align: center;
       color: white;
       padding-bottom: 5px;
-      padding-top: 5px; }
+      padding-top: 10px; }
     .city-wrapper .alerts .body {
       display: flex; }
       .city-wrapper .alerts .body .section {
@@ -1240,11 +1240,11 @@ footer .footer--wrapper {
     margin-bottom: 10px; }
     .city-wrapper .cases .header {
       background-color: #019cde;
-      font-size: 15px;
+      font-size: 30px;
       text-align: center;
       color: white;
       padding-bottom: 5px;
-      padding-top: 5px; }
+      padding-top: 10px; }
     .city-wrapper .cases .body {
       display: flex; }
       .city-wrapper .cases .body .section {
@@ -1263,11 +1263,11 @@ footer .footer--wrapper {
   .city-wrapper .title_chart {
     font-family: 'Helvetica Rounded LT Std';
     background-color: #019cde;
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
     color: white;
     padding-bottom: 5px;
-    padding-top: 5px; }
+    padding-top: 10px; }
   .city-wrapper .chart {
     display: flex;
     align-items: center;
