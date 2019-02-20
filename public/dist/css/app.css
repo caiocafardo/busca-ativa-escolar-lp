@@ -796,6 +796,23 @@ header .header--banner {
       font-family: "Raleway", sans-serif;
       font-weight: bold;
       font-size: 27px; }
+    #contact .contact--gestor .contact-whatsapp {
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      font-size: 27px;
+      margin-bottom: 5px;
+      padding-bottom: 0px; }
+    #contact .contact--gestor .only-whatsapp {
+      font-family: "Raleway", sans-serif;
+      font-weight: normal;
+      font-size: 15px;
+      margin-left: 50px; }
+    #contact .contact--gestor .ico-whatsapp {
+      width: 28px;
+      height: 23px;
+      background: url("../../images/ico-whatsapp.png");
+      margin: 0 10px;
+      display: inline-block; }
     #contact .contact--gestor .ico-telefone {
       width: 28px;
       height: 23px;
@@ -847,7 +864,7 @@ footer .footer--wrapper {
     position: relative; }
     @media (max-width: 1120px) {
       .info--wrapper .info {
-        background: url('../../images/?1547219085') no-repeat;
+        background: url('../../images/?1550674839') no-repeat;
         margin: 0 auto; } }
     .info--wrapper .info .info--img-resp--container {
       display: none; }
