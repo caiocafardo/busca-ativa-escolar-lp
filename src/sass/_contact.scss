@@ -152,6 +152,26 @@
 			font-weight: bold;
 			font-size: 27px;
 		}
+		.contact-whatsapp{
+			font-family: $fontSec;
+			font-weight: bold;
+			font-size: 27px;
+			margin-bottom: 5px;
+			padding-bottom: 0px;
+		}
+		.only-whatsapp{
+			font-family: $fontSec;
+			font-weight: normal;
+			font-size: 15px;
+			margin-left: 50px;
+		}
+		.ico-whatsapp{
+			width: 28px;
+			height: 23px;
+			background: url('../../images/ico-whatsapp.png');
+			margin: 0 10px;
+			display: inline-block;
+		}
 		.ico-telefone{
 			width: 28px;
 			height: 23px;
