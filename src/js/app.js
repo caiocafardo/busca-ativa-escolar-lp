@@ -90,3 +90,15 @@ $("#estados").on("change", function () {
         });
     });
 });
+
+var elements = $('.modal-overlay, .modal');
+
+
+setTimeout(function () {
+    elements.addClass('active');
+}, 1000);
+
+
+$('.close-modal').click(function () {
+    elements.removeClass('active');
+});
