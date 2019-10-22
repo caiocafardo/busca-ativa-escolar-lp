@@ -1,0 +1,105 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\mansouza\Documents\www\arquivos\Materiais gráficos\Pasta 2017_06_12 Formulário (E)\Pasta 2017_06_12 Formulário (E)\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1548277082
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TIMSans-Bold
+FamilyName:TIM Sans
+StyleName:Bold
+FullName:TIM Sans Bold
+MenuName:TIM Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\mansouza\Documents\www\arquivos\Materiais gráficos\Pasta 2017_06_12 Formulário (E)\Pasta 2017_06_12 Formulário (E)\Document fonts\TIMSans-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:86636
+FileModTime:1452852064
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TIM Sans Bold
+NameArray:0,Win,1,TIM Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TIMSans-Light
+FamilyName:TIM Sans
+StyleName:Light
+FullName:TIM Sans Light
+MenuName:TIM Sans Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\mansouza\Documents\www\arquivos\Materiais gráficos\Pasta 2017_06_12 Formulário (E)\Pasta 2017_06_12 Formulário (E)\Document fonts\TIMSans-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:81360
+FileModTime:1452852060
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TIM Sans Light
+NameArray:0,Win,1,TIM Sans Light
+NameArray:0,Win,16,TIM Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TIMSans-Regular
+FamilyName:TIM Sans
+StyleName:Regular
+FullName:TIM Sans
+MenuName:TIM Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\mansouza\Documents\www\arquivos\Materiais gráficos\Pasta 2017_06_12 Formulário (E)\Pasta 2017_06_12 Formulário (E)\Document fonts\TIMSans-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:82208
+FileModTime:1452852060
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,TIM Sans
+NameArray:0,Win,1,TIM Sans
+%EndFont
+
