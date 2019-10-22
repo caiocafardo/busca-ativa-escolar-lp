@@ -116,7 +116,7 @@ $easing: cubic-bezier(.55, 0, .1, 1);
 }
 .carimbo{
   position: relative;
-  border: 1px dashed #fff;
+  border: 1px dashed #EECB3D;
   border-radius: 10px;
   padding: 10px 5px 8px 5px;
   width: 119px;
@@ -124,4 +124,5 @@ $easing: cubic-bezier(.55, 0, .1, 1);
   font-size: 16px;
   transform: rotate(-25deg);
   top: -6px;
+  color: #EECB3D;
 }

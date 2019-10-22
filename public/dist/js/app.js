@@ -11551,3 +11551,9 @@ setTimeout(function () {
 $('.close-modal').click(function () {
     elements.removeClass('active');
 });
+
+$("div").mouseleave(function(){
+    $('body').click(function(){
+        elements.removeClass('active');
+    });
+});
