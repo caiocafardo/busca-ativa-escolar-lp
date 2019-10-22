@@ -1,0 +1,41 @@
+#bt_curso{
+	background-color: #eecb3d;
+	padding: 10px;
+	margin: 0;
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+}
+
+#bt_curso:hover{
+	border: none;
+}
+
+.course--wrapper {
+
+	.buttons{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.button{
+		display: inline-block;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	@extend .clearfix;
+
+	width: 95%;
+	max-width: 1010px;
+
+	display: block;
+	position: relative;
+
+	margin: 0 auto;
+
+	@media (max-width: $baseWidth) {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+
+}
