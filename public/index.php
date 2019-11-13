@@ -620,18 +620,18 @@
                     </h5>
                 </div>
 
-<!--                <div class="down--topics--col">-->
-<!--                    <a href="downloads/materiais/legislacao.zip" class="img-hover"-->
-<!--                       target="_blank">-->
-<!--                        <img src="images/downloads/materiais/legislacao.jpg" alt="imagem Busca Ativa Escolar"/>-->
-<!--                    </a>-->
-<!---->
-<!--                    <h5>-->
-<!--                        <a href="downloads/materiais/legislacao.zip" target="_blank">-->
-<!--                            Legislação-->
-<!--                        </a>-->
-<!--                    </h5>-->
-<!--                </div>-->
+                <!--                <div class="down--topics--col">-->
+                <!--                    <a href="downloads/materiais/legislacao.zip" class="img-hover"-->
+                <!--                       target="_blank">-->
+                <!--                        <img src="images/downloads/materiais/legislacao.jpg" alt="imagem Busca Ativa Escolar"/>-->
+                <!--                    </a>-->
+                <!---->
+                <!--                    <h5>-->
+                <!--                        <a href="downloads/materiais/legislacao.zip" target="_blank">-->
+                <!--                            Legislação-->
+                <!--                        </a>-->
+                <!--                    </h5>-->
+                <!--                </div>-->
             </div>
 
             <div class="down--topics--row">
@@ -930,16 +930,22 @@
                         $dh = opendir($dir);
                         while (false !== ($filename = readdir($dh))) {
                             if (strlen($filename) > 3) {
-                                ?>
-                                <li>
-                                    <a href="downloads/materiais/legislacao/<?php echo $filename ?>" target="_blank">
-                                        <?php echo substr($filename, 0, -4) ?>
-                                    </a>
-                                </li>
-
-                                <?php
+                                $values[] = $filename;
                             }
                         }
+                        sort($values);
+
+                        foreach ($values as $key => $value) {
+                            ?>
+                            <li>
+                                <a href="downloads/materiais/legislacao/<?php echo $value ?>" target="_blank">
+                                    <?php echo substr($value, 0, -4) ?>
+                                </a>
+                            </li>
+
+                            <?php
+                        }
+
                         ?>
                     </ul>
                 </div>
