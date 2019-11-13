@@ -52,7 +52,7 @@
 <header>
     <div class="navbar">
         <div class="wrapper">
-            <a href="index.html">
+            <a href="/">
                 <img class="logo" src="../../images/logo-busca-ativa-escolar.png">
             </a>
 
@@ -132,7 +132,7 @@
 
         <div class="buttons"><a href="info.html" class="button blue"> Quero participar!</a> <a href="municipio.html"
                                                                                                class="button green">Veja
-            seu município</a></div>
+                seu município</a></div>
 
     </div>
 </section>
@@ -620,18 +620,18 @@
                     </h5>
                 </div>
 
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/legislacao.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/legislacao.jpg" alt="imagem Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/legislacao.zip" target="_blank">
-                            Legislação
-                        </a>
-                    </h5>
-                </div>
+<!--                <div class="down--topics--col">-->
+<!--                    <a href="downloads/materiais/legislacao.zip" class="img-hover"-->
+<!--                       target="_blank">-->
+<!--                        <img src="images/downloads/materiais/legislacao.jpg" alt="imagem Busca Ativa Escolar"/>-->
+<!--                    </a>-->
+<!---->
+<!--                    <h5>-->
+<!--                        <a href="downloads/materiais/legislacao.zip" target="_blank">-->
+<!--                            Legislação-->
+<!--                        </a>-->
+<!--                    </h5>-->
+<!--                </div>-->
             </div>
 
             <div class="down--topics--row">
@@ -916,6 +916,36 @@
 
             </div>
         </div>
+
+        <div class="bam--section">
+            <div class="down--topics--row">
+                <div class="down-manual">
+
+                    <h3>
+                        Legislação
+                    </h3>
+                    <ul>
+                        <?php
+                        $dir = "downloads/materiais/legislacao";
+                        $dh = opendir($dir);
+                        while (false !== ($filename = readdir($dh))) {
+                            if (strlen($filename) > 3) {
+                                ?>
+                                <li>
+                                    <a href="downloads/materiais/legislacao/<?php echo $filename ?>" target="_blank">
+                                        <?php echo substr($filename, 0, -4) ?>
+                                    </a>
+                                </li>
+
+                                <?php
+                            }
+                        }
+                        ?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -1023,7 +1053,8 @@
                 qualquer
                 tempo. O curso possui certificação e está aberto na plataforma Google Sala de Aula.
             </p>
-            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank" class="button yellow">
+            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"
+               class="button yellow">
                 Quero participar!
             </a>
         </div><!-- content -->
