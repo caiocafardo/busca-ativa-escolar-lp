@@ -266,23 +266,28 @@
     var url_test = '//api.testes.buscaativaescolar.org.br/api/v1/lp/';
     var url_local = '//api.busca-ativa-escolar.test/api/v1/lp/';
 
+    var debug = {
+        url:'?XDEBUG_SESSION_START=PHPSTORM',
+        active:false
+    }
+
     var url_country_report = url_prod + "report";
     var url_uf_report = url_prod + "report/uf";
     var url_city_report = url_prod + "report/city";
     var url_list_cities = url_prod + "report/list/cities";
 
     if ('site.testes.buscaativaescolar.org.br' === location.host) {
-		url_country_report = url_test + "report";
-		url_uf_report = url_test + "report/uf";
-		url_city_report = url_test + "report/city";
-		url_list_cities = url_test + "report/list/cities";
+        url_country_report = url_test + "report";
+        url_uf_report = url_test + "report/uf";
+        url_city_report = url_test + "report/city";
+        url_list_cities = url_test + "report/list/cities";
     }
 
     if ('lp.busca-ativa-escolar.test' === location.host) {
-		url_country_report = url_local + "report?XDEBUG_SESSION_START=PHPSTORM";
-		url_uf_report = url_local + "report/uf?XDEBUG_SESSION_START=PHPSTORM";
-		url_city_report = url_local + "report/city?XDEBUG_SESSION_START=PHPSTORM";
-		url_list_cities = url_local + "report/list/cities?XDEBUG_SESSION_START=PHPSTORM";
+        url_country_report = url_local + "report" + (debug.active ? debug.url : '');
+        url_uf_report = url_local + "report/uf" + (debug.active ? debug.url : '');
+        url_city_report = url_local + "report/city" + (debug.active ? debug.url : '');
+        url_list_cities = url_local + "report/list/cities" + (debug.active ? debug.url : '');
     }
 
     var data_graph = {
