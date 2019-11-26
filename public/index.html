@@ -17,6 +17,8 @@
 
     <title>Busca Ativa Escolar</title>
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -941,6 +943,10 @@
 
             <div class="form-row">
                 <textarea rows="4" cols="50" name="text" class="field-text">Escreva sua mensagem aqui!</textarea>
+            </div>
+
+            <div style="margin-left: 25%;">
+                <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg"></div>
             </div>
 
             <button class="button yellow btn-submit" onclick="formSubmitClick()">
