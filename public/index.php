@@ -17,7 +17,7 @@
 
     <title>Busca Ativa Escolar</title>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"/>
 
