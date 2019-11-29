@@ -998,7 +998,7 @@
                 <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg"></div>
             </div>
 
-            <button class="button yellow btn-submit" onclick="formSubmitClick()" id="bt_recaptcha" disabled>
+            <button class="button yellow btn-submit" onclick="formSubmitClick()" id="bt_recaptcha">
 					<span>
 						Enviar <i></i>
 					</span>
