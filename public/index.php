@@ -995,7 +995,7 @@
             </div>
 
             <div style="margin-left: 25%;">
-                <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg" data-callback="callbackRecaptcha"></div>
+                <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg"></div>
             </div>
 
             <button class="button yellow btn-submit" onclick="formSubmitClick()" id="bt_recaptcha" disabled>
@@ -1099,10 +1099,6 @@
             + currentdate.getMinutes() + ":"
             + currentdate.getSeconds()
             + "]";
-    }
-
-    function callbackRecaptcha(e) {
-        document.getElementById("bt_recaptcha").disabled = false;
     }
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
