@@ -280,7 +280,7 @@
 
     var debug = {
         url:'?XDEBUG_SESSION_START=PHPSTORM',
-        active:false
+        active:true
     }
 
     var url_country_report = url_prod + "report";
@@ -413,7 +413,7 @@
                         $('#interrupted').text(result._data.cases._interrupted);
                         $('#enrollment').text(result._data.cases._enrollment);
 
-                        $('#cases_count').text(sum(result._data.cases));
+                        $('#cases_count').text(sum(result._data.cases) - result._data.cases._enrollment);
 
 
 
@@ -486,7 +486,7 @@
                             $('#created').text(result._data.data_city.created);
                             $('#status').text(result._data.data_city.status);
 
-                            $('#cases_count').text(sum(result._data.cases));
+                            $('#cases_count').text(sum(result._data.cases) - result._data.cases._enrollment);
 
                             chartCity.data.labels = [];
                             chartCity.data.datasets.forEach((dataset) => {
