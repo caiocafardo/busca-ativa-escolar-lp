@@ -933,15 +933,6 @@
                             ['nome' => 'Plano Nacional de Educação', 'link' => '//www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13005.htm'],
                             ['nome' => 'Recomendação UNCME sobre matrícula de fluxo contínuo', 'link' => '//www.uncme.org.br/Gerenciador/arquivos/d262f7810f21c1fcb3c749fc485e3a90.pdf']
                         ];
-                        //                         $dir = "downloads/materiais/legislacao";
-                        //                         $dh = opendir($dir);
-                        //                         while (false !== ($filename = readdir($dh))) {
-                        //                             if (strlen($filename) > 3) {
-                        //                                 $values[] = $filename;
-                        //                             }
-                        //                         }
-                        //                         sort($values);
-
                         foreach ($links as $key => $value) {
                             ?>
                             <li>
