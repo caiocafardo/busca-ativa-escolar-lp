@@ -929,9 +929,9 @@
                     <ul>
                         <?php
                         $links = (object)[
-                            ['nome' => 'Lei de Diretrizes e Bases da Educação', 'link' => '//www.planalto.gov.br/ccivil_03/leis/l9394.htm'],
-                            ['nome' => 'Plano Nacional de Educação', 'link' => '//www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13005.htm'],
-                            ['nome' => 'Recomendação UNCME sobre matrícula de fluxo contínuo', 'link' => '//www.uncme.org.br/Gerenciador/arquivos/d262f7810f21c1fcb3c749fc485e3a90.pdf']
+                            ['nome' => 'Lei de Diretrizes e Bases da Educação', 'link' => 'http://www.planalto.gov.br/ccivil_03/leis/l9394.htm'],
+                            ['nome' => 'Plano Nacional de Educação', 'link' => 'http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13005.htm'],
+                            ['nome' => 'Recomendação UNCME sobre matrícula de fluxo contínuo', 'link' => 'http://www.uncme.org.br/Gerenciador/arquivos/d262f7810f21c1fcb3c749fc485e3a90.pdf']
                         ];
                         foreach ($links as $key => $value) {
                             ?>
