@@ -928,20 +928,16 @@
                     </h3>
                     <ul>
                         <?php
-                        $dir = "downloads/materiais/legislacao";
-                        $dh = opendir($dir);
-                        while (false !== ($filename = readdir($dh))) {
-                            if (strlen($filename) > 3) {
-                                $values[] = $filename;
-                            }
-                        }
-                        sort($values);
-
-                        foreach ($values as $key => $value) {
+                        $links = (object)[
+                            ['nome' => 'Lei de Diretrizes e Bases da Educação', 'link' => 'http://www.planalto.gov.br/ccivil_03/leis/l9394.htm'],
+                            ['nome' => 'Plano Nacional de Educação', 'link' => 'http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13005.htm'],
+                            ['nome' => 'Recomendação UNCME sobre matrícula de fluxo contínuo', 'link' => 'http://www.uncme.org.br/Gerenciador/arquivos/d262f7810f21c1fcb3c749fc485e3a90.pdf']
+                        ];
+                        foreach ($links as $key => $value) {
                             ?>
                             <li>
-                                <a href="downloads/materiais/legislacao/<?php echo $value ?>" target="_blank">
-                                    <?php echo substr($value, 0, -4) ?>
+                                <a href="<?php echo $value['link'] ?>" target="_blank">
+                                    <?php echo $value['nome'] ?>
                                 </a>
                             </li>
 

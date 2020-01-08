@@ -129,7 +129,7 @@
         <div class="data_wrapper" style="display: none">
 
             <div class="alerts">
-                <div class="header">ALERTAS</div>
+                <div class="header">ALERTAS (<span id="alert_count">0</span>)</div>
                 <div class="body">
                     <div class="section">
                         <span class="label">APROVADOS</span>
@@ -147,19 +147,26 @@
             </div>
 
             <div class="cases">
-                <div class="header">CASOS</div>
+                <div class="header">CASOS (<span id="cases_count">0</span>)</div>
                 <div class="body">
+                    <div class="section">
+                        <span class="label">CONCLUÍDOS</span>
+                        <span class="label-total" id="in_school">0</span>
+                    </div>
                     <div class="section">
                         <span class="label">EM ANDAMENTO</span>
                         <span class="label-total" id="in_progress">0</span>
                     </div>
                     <div class="section">
-                        <span class="label">(RE)MATRÍCULA</span>
-                        <span class="label-total" id="enrollment">0</span>
+                        <span class="label">CANCELADOS</span>
+                        <span class="label-total" id="cancelled">0</span>
+                    </div>
+                    <div class="section">
+                        <span class="label">INTERROMPIDOS</span>
+                        <span class="label-total" id="interrupted">0</span>
                     </div>
                 </div>
             </div>
-
             <div class="cases">
                 <div class="header"><span class="label">(RE)MATRÍCULAS</span>
                 </div>
@@ -278,8 +285,8 @@
     var url_local = '//api.busca-ativa-escolar.test/api/v1/lp/';
 
     var debug = {
-        url: '?XDEBUG_SESSION_START=PHPSTORM',
-        active: false
+        url:'?XDEBUG_SESSION_START=PHPSTORM',
+        active:true
     }
 
     var url_country_report = url_prod + "report";
@@ -366,8 +373,14 @@
                     $("#pending").text(0 /*result._data.alerts._pending*/);
                     $("#rejected").text(0 /*result._data.alerts._rejected*/);
 
-                    $("#in_progress").text(0 /*result._data.cases._in_progress*/);
+                    $("#in_school").text(0 /*result._data.cases._in_progress*/);
+                    $("#in_progress").text(0 /*result._data.cases._enrollment*/);
+                    $("#cancelled").text(0 /*result._data.cases._in_progress*/);
+                    $("#interrupted").text(0 /*result._data.cases._enrollment*/);
                     $("#enrollment").text(0 /*result._data.cases._enrollment*/);
+
+                    $("#alert_count").text(0 /*result._data.cases._enrollment*/);
+                    $("#cases_count").text(0 /*result._data.cases._enrollment*/);
 
                     $('#uf').empty();
                     $('#uf').append("<option value=\"\">Todos os estados</option>");
@@ -375,22 +388,6 @@
                         $('#uf').append("<option value=\"" + current + "\">" + current + "</option>");
                     });
 
-                    // chartCity.data.labels = [];
-                    // chartCity.data.datasets.forEach((dataset) => {
-                    //     dataset.data = [];
-                    // });
-
-                    // result._data.causes.forEach( function (current) {
-                    //     chartCity.data.labels.push(current.cause);
-                    //     chartCity.data.datasets.forEach((dataset) => {
-                    //         dataset.data.push(current.qtd);
-                    //     });
-                    // });
-
-                    // chartCity.options = options_graph;
-                    // chartCity.update();
-
-                    // $('#my-legend').html(chartCity.generateLegend());
 
                     $('.loading').css('display', 'none');
                     $('.data_wrapper').css('display', 'none');
@@ -417,8 +414,18 @@
                         $('#approved').text(result._data.alerts._approved);
                         $('#pending').text(result._data.alerts._pending);
                         $('#rejected').text(result._data.alerts._rejected);
+
+                        $('#alert_count').text(sum(result._data.alerts));
+
+                        $('#in_school').text(result._data.cases._in_school);
                         $('#in_progress').text(result._data.cases._in_progress);
+                        $('#cancelled').text(result._data.cases._cancelled);
+                        $('#interrupted').text(result._data.cases._interrupted);
                         $('#enrollment').text(result._data.cases._enrollment);
+
+                        $('#cases_count').text(sum(result._data.cases) - result._data.cases._enrollment);
+
+
 
                         chartCity.data.labels = [];
                         chartCity.data.datasets.forEach((dataset) => {
@@ -448,6 +455,16 @@
 
     }
 
+    function sum( obj ) {
+        var sum = 0;
+        for( var el in obj ) {
+            if( obj.hasOwnProperty( el ) ) {
+                sum += parseFloat( obj[el] );
+            }
+        }
+        return sum;
+    }
+
     function load_data_city(dados, chartCity, selectedUf) {
 
         if (dados.city != "") {
@@ -467,10 +484,19 @@
                             $('#approved').text(result._data.alerts._approved);
                             $('#pending').text(result._data.alerts._pending);
                             $('#rejected').text(result._data.alerts._rejected);
+
+                            $('#alert_count').text(sum(result._data.alerts));
+
+                            $('#in_school').text(result._data.cases._in_school);
                             $('#in_progress').text(result._data.cases._in_progress);
+                            $('#cancelled').text(result._data.cases._cancelled);
+                            $('#interrupted').text(result._data.cases._interrupted);
                             $('#enrollment').text(result._data.cases._enrollment);
+
                             $('#created').text(result._data.data_city.created);
                             $('#status').text(result._data.data_city.status);
+
+                            $('#cases_count').text(sum(result._data.cases) - result._data.cases._enrollment);
 
                             chartCity.data.labels = [];
                             chartCity.data.datasets.forEach((dataset) => {
