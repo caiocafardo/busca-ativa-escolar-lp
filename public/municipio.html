@@ -533,8 +533,8 @@
             );
 
         } else {
-            var dados = {'uf': selectedUf};
-            load_data_uf(dados, chartCity);
+            //var dados = {'uf': selectedUf};
+            //load_data_uf(dados, chartCity);
         }
 
     }
@@ -559,6 +559,9 @@
         var selectedUf = null;
 
         $('#uf').on('change', function () {
+
+            $('.loading').css('display', 'block');
+
             selectedUf = $(this).children("option:selected").val();
             var dados = {'uf': selectedUf};
             $.ajax(
@@ -571,10 +574,14 @@
                         result._data.cities_in_tenants.forEach(function (current) {
                             $('#city').append("<option value=\"" + current + "\">" + current + "</option>");
                         });
-                        load_data_uf(dados, chartCity);
+                        //load_data_uf(dados, chartCity);
+                        $('.loading').css('display', 'none');
+                    },error: function (request) {
+                        $('.loading').css('display', 'none');
                     }
                 }
             );
+
         });
 
         $('#city').on('change', function () {
