@@ -938,6 +938,8 @@ footer .footer--wrapper {
       text-align: center;
       margin: 0 0 15px 0;
       color: #fff; }
+  .modal .teste {
+    border: 1px solid; }
   .modal.active {
     visibility: visible;
     opacity: 1;

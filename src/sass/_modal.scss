@@ -99,6 +99,9 @@ $easing: cubic-bezier(.55, 0, .1, 1);
       color: #fff;
     }
   }
+  .teste{
+    border: 1px solid;
+  }
 
   &.active {
     visibility: visible;
