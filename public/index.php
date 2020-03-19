@@ -990,7 +990,7 @@
                 <textarea rows="4" cols="50" name="text" class="field-text">Escreva sua mensagem aqui!</textarea>
             </div>
 
-            <div style="margin-left: 25%;">
+            <div>
                 <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg"></div>
             </div>
 
@@ -1049,7 +1049,7 @@
 
             <h2 class="c-blue">
                 <img src="../../images/logo-busca-ativa-escolar.png"><br>
-                <small style="font-size: 20px">em tempo de Coronavírus</small>
+                <div style="font-size: 20px">em tempo de Coronavírus</div>
             </h2>
             <p>
                 Olá pessoal,
