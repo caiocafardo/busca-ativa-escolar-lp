@@ -53,6 +53,7 @@ $easing: cubic-bezier(.55, 0, .1, 1);
   transform: scale(1.2);
   transition: all $speed $easing;
   overflow: auto;
+
   .close-modal {
     position: absolute;
     cursor: pointer;
@@ -90,6 +91,7 @@ $easing: cubic-bezier(.55, 0, .1, 1);
         color: yellow;
       }
     }
+
     h2 {
       font-size: 37px;
       font-family: Helvetica Rounded LT Std;
@@ -99,7 +101,8 @@ $easing: cubic-bezier(.55, 0, .1, 1);
       color: #fff;
     }
   }
-  .teste{
+
+  .teste {
     border: 1px solid;
   }
 
@@ -120,12 +123,21 @@ $easing: cubic-bezier(.55, 0, .1, 1);
 }
 
 @media (max-width: 600px) {
+  header .navbar {
+    position: relative;
+  }
   .modal {
-    width: 100%;
+    width: 90%;
+
+    .modal-content {
+      p {
+        padding-left: 5px;
+      }
+    }
   }
 }
 
-.carimbo{
+.carimbo {
   position: relative;
   border: 1px dashed #EECB3D;
   border-radius: 10px;

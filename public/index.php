@@ -990,7 +990,7 @@
                 <textarea rows="4" cols="50" name="text" class="field-text">Escreva sua mensagem aqui!</textarea>
             </div>
 
-            <div style="margin-left: 25%;">
+            <div>
                 <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg"></div>
             </div>
 
