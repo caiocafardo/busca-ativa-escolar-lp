@@ -1049,7 +1049,7 @@
 
             <h2 class="c-blue">
                 <img src="../../images/logo-busca-ativa-escolar.png"><br>
-                <small style="font-size: 20px">em tempo de Coronavírus</small>
+                <div style="font-size: 20px">em tempo de Coronavírus</div>
             </h2>
             <p>
                 Olá pessoal,
