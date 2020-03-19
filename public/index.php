@@ -1048,23 +1048,58 @@
         <div class="modal-content">
 
             <h2 class="c-blue">
-                Curso<br>
                 <img src="../../images/logo-busca-ativa-escolar.png"><br>
-                <div class="carimbo">NA PRÁTICA</div>
-
+                <small style="font-size: 20px">em tempo de Coronavírus</small>
             </h2>
             <p>
-                A Busca Ativa Escolar agora conta com um curso a distância para apoiar os municípios na sua
-                implementação. Trata-se do <b>Busca Ativa Escolar Na Prática</b>, um curso autoformativo, dividido
-                em módulos,
-                de acordo com as funções desempenhadas por cada ator na estratégia e que podem ser trilhados a
-                qualquer
-                tempo. O curso possui certificação e está aberto na plataforma Google Sala de Aula.
+                Olá pessoal,
             </p>
-            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"
-               class="button yellow">
-                Quero participar!
-            </a>
+            <p>
+                Devido a pandemia de Coronavírus, estamos recebendo muitas dúvidas sobre o funcionamento da Busca Ativa
+                Escolar em relação às visitas domiciliares. Todo estado e município tem um posicionamento próprio, por
+                isso, sugerimos que cada equipe siga as decisões estabelecidas em seu município em relação ao isolamento
+                social e teletrabalho.
+            </p>
+            <p>
+                Porém, isso não significa que o trabalho deva parar. Ao contrário, muitas ações podem ser feitas! Abaixo
+                apresentamos algumas sugestões que podem ser executadas em casa e que colaboram para aprimorar a
+                estratégia em seu município:
+            </p>
+            <p>
+
+                - Fazer o curso de formação online da Busca Ativa Escolar
+                (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD Busca Ativa Escolar na Prática!</a>);<br>
+                - Ler os guias e manuais de
+                orientação disponíveis no site da estratégia;<br>
+
+                - Atualizar os dados da plataforma e inserir os alertas e os casos que foram criados e/ou gerenciados em
+                formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou videoconferência, para
+                discutir casos, avaliar dados e capacitar os profissionais; <br>- Criar um grupo de WhatsApp com sua equipe
+                para facilitar a comunicação;<br>
+
+                - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
+                (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar" target="_blank">plantões online Busca Ativa Escolar</a>);<br> - Gerenciar o cadastro dos usuários, acrescentando novos
+                colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.
+            </p>
+            <p>
+
+                Qualquer dúvida, entre em contato com os nossos canais de atendimento:<br>
+                0800 729 2872 <br>
+                (61) 98257 2931(somente Whatsapp)<br> contato@buscaativaescolar.org.br
+            </p>
+            <p>
+                Para mais informações sobre o Coronavírus, acesse: <br>
+
+                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
+                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>
+                Atenciosamente<br>
+
+                Equipe Gestora Nacional da Busca Ativa Escolar
+            </p>
+            <!--            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"-->
+            <!--               class="button yellow">-->
+            <!--                Quero participar!-->
+            <!--            </a>-->
         </div><!-- content -->
 
     </div><!-- modal -->
