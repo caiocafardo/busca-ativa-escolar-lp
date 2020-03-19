@@ -894,7 +894,7 @@ footer .footer--wrapper {
   position: absolute;
   top: 5%;
   margin: 0 auto;
-  width: 800px;
+  width: 55%;
   max-width: 75rem;
   min-height: 20rem;
   padding: 0.5rem;
@@ -950,6 +950,9 @@ footer .footer--wrapper {
       transform: translateY(10px);
       opacity: 1; }
 
+@media (max-width: 600px) {
+  .modal {
+    width: 100%; } }
 .carimbo {
   position: relative;
   border: 1px dashed #EECB3D;
