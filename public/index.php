@@ -1070,7 +1070,7 @@
                 - Fazer o curso de formação online da Busca Ativa Escolar
                 (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica</a>);<br>
                 - Ler os guias e manuais de
-                orientação disponíveis no site da estratégia (<a href="https://buscaativaescolar.org.br" target="_blank">https://buscaativaescolar.org.br</a>);<br>
+                orientação disponíveis no site da estratégia;<br>
 
                 - Atualizar os dados da plataforma e inserir os alertas e os casos que foram criados e/ou gerenciados em
                 formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou videoconferência, para
@@ -1078,7 +1078,7 @@
                 para facilitar a comunicação;<br>
 
                 - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
-                (<a href="https://www.youtube.com/user/UNICEFBrasil" target="_blank">https://www.youtube.com/user/UNICEFBrasil</a>);<br> - Gerenciar o cadastro dos usuários, acrescentando novos
+                (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar" target="_blank">https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar</a>);<br> - Gerenciar o cadastro dos usuários, acrescentando novos
                 colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.
             </p>
             <p>
