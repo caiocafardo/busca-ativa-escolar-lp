@@ -96,7 +96,7 @@ var elements = $('.modal-overlay, .modal');
 
 setTimeout(function () {
     elements.addClass('active');
-}, 1000);
+}, 100);
 
 
 $('.close-modal').click(function () {
