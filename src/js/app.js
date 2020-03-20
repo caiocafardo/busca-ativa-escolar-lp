@@ -101,6 +101,10 @@ setTimeout(function () {
 
 $('.close-modal').click(function () {
     elements.removeClass('active');
+    setTimeout(function () {
+        elements.removeClass('modal-overlay');
+    }, 1000);
+
 });
 
 $("div").mouseleave(function(){
