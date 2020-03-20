@@ -1068,31 +1068,67 @@
             <p>
 
                 - Fazer o curso de formação online da Busca Ativa Escolar
-                (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD Busca Ativa Escolar na Prática!</a>);<br>
+                (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD Busca
+                    Ativa Escolar na Prática!</a>);<br>
                 - Ler os guias e manuais de
                 orientação disponíveis no site da estratégia;<br>
 
                 - Atualizar os dados da plataforma e inserir os alertas e os casos que foram criados e/ou gerenciados em
-                formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou videoconferência, para
-                discutir casos, avaliar dados e capacitar os profissionais; <br>- Criar um grupo de WhatsApp com sua equipe
+                formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou videoconferência,
+                para
+                discutir casos, avaliar dados e capacitar os profissionais; <br>- Criar um grupo de WhatsApp com sua
+                equipe
                 para facilitar a comunicação;<br>
 
                 - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
-                (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar" target="_blank">plantões online Busca Ativa Escolar</a>);<br> - Gerenciar o cadastro dos usuários, acrescentando novos
-                colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.
+                (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar"
+                    target="_blank">plantões online Busca Ativa Escolar</a>);<br> - Gerenciar o cadastro dos usuários,
+                acrescentando novos
+                colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.<br>
             </p>
             <p>
 
-                Qualquer dúvida, entre em contato com os nossos canais de atendimento:<br>
+                <b>Qualquer dúvida, entre em contato com os nossos canais de atendimento:</b><br>
                 0800 729 2872 <br>
                 (61) 98257 2931(somente Whatsapp)<br> contato@buscaativaescolar.org.br
             </p>
-            <p>
-                Para mais informações sobre o Coronavírus, acesse: <br>
+            <br>
+            <h2 style="font-size: 22px; text-align: left">Para mais informações sobre o Coronavírus, acesse:</h2 style="font-size: 22px; text-align: left">
 
-                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
-                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>
-                Atenciosamente<br>
+            <p>
+                <b>Como proteger você e suas crianças</b><br>
+
+                <a href="https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
+
+                <b>Oito dicas para ajudar a confortar e proteger as crianças</b><br>
+
+                <a href="https://unicef.org/brazil/como-falar-com-criancas-sobre-coronaviru" target="_blank">https://unicef.org/brazil/como-falar-com-criancas-sobre-coronavirus</a><br>
+
+                <b>Orientações Conviva Educação</b><br>
+
+                <a href="https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br>
+
+                <b>Mensagens e Ações para a Prevenção do Coronavírus em Escolas</b><br>
+
+                <a href="https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas"
+                   target="_blank">https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas</a><br>
+
+                <b>Dicas para educadores a fim de tranquilizar e proteger crianças e adolescentes</b><br>
+
+                <a href="https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus"
+                   target="_blank">https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus</a><br>
+
+
+                <!--                Para mais informações sobre o Coronavírus, acesse: <br>-->
+                <!---->
+                <!--                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>-->
+                <!--                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>-->
+                <!--                -->
+                <!--                -->
+                <!--                -->
+
+
+                <br>Atenciosamente<br>
 
                 Equipe Gestora Nacional da Busca Ativa Escolar
             </p>
