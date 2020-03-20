@@ -1093,44 +1093,56 @@
                 (61) 98257 2931(somente Whatsapp)<br> contato@buscaativaescolar.org.br
             </p>
             <br>
-            <h2 style="font-size: 22px; text-align: left">Para mais informações sobre o Coronavírus, acesse:</h2 style="font-size: 22px; text-align: left">
+            <h2 style="font-size: 22px; text-align: left">Para mais informações sobre o Coronavírus,
+                acesse:</h2>
+
 
             <p>
                 <b>Como proteger você e suas crianças</b><br>
 
                 <a href="https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
-
+            </p>
+            <div class="space-xs"></div>
+            <p>
                 <b>Oito dicas para ajudar a confortar e proteger as crianças</b><br>
 
                 <a href="https://unicef.org/brazil/como-falar-com-criancas-sobre-coronaviru" target="_blank">https://unicef.org/brazil/como-falar-com-criancas-sobre-coronavirus</a><br>
+            </p>
+            <div class="space-xs"></div>
 
+            <p>
                 <b>Orientações Conviva Educação</b><br>
 
                 <a href="https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br>
+            </p>
+            <div class="space-xs"></div>
 
+            <p>
                 <b>Mensagens e Ações para a Prevenção do Coronavírus em Escolas</b><br>
 
                 <a href="https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas"
                    target="_blank">https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas</a><br>
-
+            </p>
+            <div class="space-xs"></div>
+            <p>
                 <b>Dicas para educadores a fim de tranquilizar e proteger crianças e adolescentes</b><br>
 
                 <a href="https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus"
                    target="_blank">https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus</a><br>
+            </p>
 
+            <!--                Para mais informações sobre o Coronavírus, acesse: <br>-->
+            <!---->
+            <!--                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>-->
+            <!--                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>-->
+            <!--                -->
+            <!--                -->
+            <!--                -->
 
-                <!--                Para mais informações sobre o Coronavírus, acesse: <br>-->
-                <!---->
-                <!--                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>-->
-                <!--                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>-->
-                <!--                -->
-                <!--                -->
-                <!--                -->
+        <p>
+            <br>Atenciosamente<br>
 
-
-                <br>Atenciosamente<br>
-
-                Equipe Gestora Nacional da Busca Ativa Escolar
+            Equipe Gestora Nacional da Busca Ativa Escolar
             </p>
             <!--            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"-->
             <!--               class="button yellow">-->

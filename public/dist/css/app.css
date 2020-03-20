@@ -927,6 +927,8 @@ footer .footer--wrapper {
       color: #fff; }
       .modal .modal-content p a {
         color: yellow; }
+      .modal .modal-content p b {
+        line-height: 2; }
     .modal .modal-content h2 {
       font-size: 37px;
       font-family: Helvetica Rounded LT Std;
@@ -964,6 +966,9 @@ footer .footer--wrapper {
   transform: rotate(-25deg);
   top: -6px;
   color: #EECB3D; }
+
+.space-xs {
+  padding: 4px; }
 
 .info--wrapper {
   width: 100%;
