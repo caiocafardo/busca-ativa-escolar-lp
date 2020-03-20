@@ -1102,20 +1102,20 @@
 
                 <a href="https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
             </p>
-            <div class="space-xs"></div>
+            <br>
             <p>
                 <b>Oito dicas para ajudar a confortar e proteger as crianças</b><br>
 
                 <a href="https://unicef.org/brazil/como-falar-com-criancas-sobre-coronaviru" target="_blank">https://unicef.org/brazil/como-falar-com-criancas-sobre-coronavirus</a><br>
             </p>
-            <div class="space-xs"></div>
+            <br>
 
             <p>
                 <b>Orientações Conviva Educação</b><br>
 
                 <a href="https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br>
             </p>
-            <div class="space-xs"></div>
+            <br>
 
             <p>
                 <b>Mensagens e Ações para a Prevenção do Coronavírus em Escolas</b><br>
@@ -1123,7 +1123,7 @@
                 <a href="https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas"
                    target="_blank">https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas</a><br>
             </p>
-            <div class="space-xs"></div>
+            <br>
             <p>
                 <b>Dicas para educadores a fim de tranquilizar e proteger crianças e adolescentes</b><br>
 
@@ -1139,10 +1139,10 @@
             <!--                -->
             <!--                -->
 
-        <p>
-            <br>Atenciosamente<br>
+            <p>
+                <br>Atenciosamente<br>
 
-            Equipe Gestora Nacional da Busca Ativa Escolar
+                Equipe Gestora Nacional da Busca Ativa Escolar
             </p>
             <!--            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"-->
             <!--               class="button yellow">-->
