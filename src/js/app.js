@@ -101,14 +101,14 @@ setTimeout(function () {
 
 $('.close-modal').click(function () {
     elements.removeClass('active');
-    setTimeout(function () {
-        elements.removeClass('modal-overlay');
-    }, 1000);
-
+    elements.removeClass('modal');
+    elements.removeClass('modal-overlay');
 });
 
 $("div").mouseleave(function(){
     $('body').click(function(){
         elements.removeClass('active');
+        elements.removeClass('modal');
+        elements.removeClass('modal-overlay');
     });
 });
