@@ -1185,6 +1185,7 @@
 <script src="dist/js/libs.js"></script> <!-- Libraries -->
 <script src="dist/js/app.js"></script> <!-- Development -->
 <link rel="stylesheet" href="dist/css/sweetalert.css"/>
+
 <!--script src="dist/js/app.min.js"></script--> <!-- Production -->
 
 </body>

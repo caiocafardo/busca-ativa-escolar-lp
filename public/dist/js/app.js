@@ -11561,3 +11561,7 @@ $("div").mouseleave(function(){
         elements.removeClass('modal-overlay');
     });
 });
+
+tippy('[data-tippy-content]',{
+    theme: 'tomato',
+});
