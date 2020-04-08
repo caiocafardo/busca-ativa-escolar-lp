@@ -457,7 +457,7 @@
                         $('#transferred').text(result._data.cases._transferred);
                         $('#in_observation').text(result._data.cases._in_observation);
 
-                        $('#cases_count').text(result._data.cases._in_observation + result._data.cases._in_school);
+                        $('#cases_count').text(result._data.cases._in_school + result._data.cases._in_observation);
 
 
 
@@ -531,7 +531,7 @@
                             $('#created').text(result._data.data_city.created);
                             $('#status').text(result._data.data_city.status);
 
-                            $('#cases_count').text(result._data.cases._in_observation + result._data.cases._in_school);
+                            $('#cases_count').text(result._data.cases._in_school + result._data.cases._in_observation);
 
                             chartCity.data.labels = [];
                             chartCity.data.datasets.forEach((dataset) => {
