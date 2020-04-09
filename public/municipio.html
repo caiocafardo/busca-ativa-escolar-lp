@@ -415,6 +415,8 @@
                     $("#alert_count").text(0);
                     $("#cases_count").text(0);
 
+                    $("#enrollment").text(0);
+
                     $('#uf').empty();
                     $('#uf').append("<option value=\"\">Todos os estados</option>");
                     result._data.states_in_tenants.forEach(function (current) {
@@ -457,9 +459,9 @@
                         $('#transferred').text(result._data.cases._transferred);
                         $('#in_observation').text(result._data.cases._in_observation);
 
-                        $('#cases_count').text(result._data.cases._in_school + result._data.cases._in_observation);
+                        $('#cases_count').text(sum(result._data.cases));
 
-
+                        $("#enrollment").text( parseInt(result._data.cases._in_school)+parseInt(result._data.cases._in_observation));
 
                         chartCity.data.labels = [];
                         chartCity.data.datasets.forEach((dataset) => {
@@ -531,7 +533,9 @@
                             $('#created').text(result._data.data_city.created);
                             $('#status').text(result._data.data_city.status);
 
-                            $('#cases_count').text(result._data.cases._in_school + result._data.cases._in_observation);
+                            $('#cases_count').text(sum(result._data.cases));
+
+                            $("#enrollment").text( parseInt(result._data.cases._in_school)+parseInt(result._data.cases._in_observation) );
 
                             chartCity.data.labels = [];
                             chartCity.data.datasets.forEach((dataset) => {
