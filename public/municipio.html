@@ -149,22 +149,38 @@
             <div class="cases">
                 <div class="header">CASOS (<span id="cases_count">0</span>)</div>
                 <div class="body">
+
                     <div class="section">
-                        <span class="label">CONCLUÍDOS</span>
-                        <span class="label-total" id="in_school">0</span>
-                    </div>
-                    <div class="section">
-                        <span class="label">EM ANDAMENTO</span>
+                        <span class="label" data-tippy-content="Caso em andamento: de pesquisa até (re)matrícula">EM ANDAMENTO*</span>
                         <span class="label-total" id="in_progress">0</span>
                     </div>
+
                     <div class="section">
-                        <span class="label">CANCELADOS</span>
+                        <span class="label" data-tippy-content="Dentro da escola e em observação: de 1ª a 4ª observação">DENTRO DA ESCOLA*</span>
+                        <span class="label-total" id="in_observation">0</span>
+                    </div>
+
+
+                    <div class="section">
+                        <span class="label" data-tippy-content="Casos concluídos: caso finalizado com sucesso após a 4ª observação">CONCLUÍDOS*</span>
+                        <span class="label-total" id="in_school">0</span>
+                    </div>
+
+                    <div class="section">
+                        <span class="label" data-tippy-content="Casos cancelados: em qualquer etapa do processo">CANCELADOS*</span>
                         <span class="label-total" id="cancelled">0</span>
                     </div>
+
+                    <div class="section">
+                        <span class="label">TRANSFERIDOS</span>
+                        <span class="label-total" id="transferred">0</span>
+                    </div>
+
                     <div class="section">
                         <span class="label">INTERROMPIDOS</span>
                         <span class="label-total" id="interrupted">0</span>
                     </div>
+
                 </div>
             </div>
             <div class="cases">
@@ -270,6 +286,9 @@
     </div>
 </footer>
 
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
 <link rel="stylesheet" href="dist/css/libs.css?v=2.0"/>
 <link rel="stylesheet" href="dist/css/app.css?v=2.0"/>
 
@@ -282,6 +301,7 @@
 
     var url_prod = '//api.buscaativaescolar.org.br/api/v1/lp/';
     var url_test = '//api.testes.buscaativaescolar.org.br/api/v1/lp/';
+    var url_dev = '//api.dev.buscaativaescolar.org.br/api/v1/lp/';
     var url_local = '//api.busca-ativa-escolar.test/api/v1/lp/';
 
     var debug = {
@@ -299,6 +319,13 @@
         url_uf_report = url_test + "report/uf";
         url_city_report = url_test + "report/city";
         url_list_cities = url_test + "report/list/cities";
+    }
+
+    if ('lp.dev.buscaativaescolar.org.br' === location.host) {
+        url_country_report = url_dev + "report";
+        url_uf_report = url_dev + "report/uf";
+        url_city_report = url_dev + "report/city";
+        url_list_cities = url_dev + "report/list/cities";
     }
 
     if ('lp.busca-ativa-escolar.test' === location.host) {
@@ -376,7 +403,8 @@
                     $("#in_school").text(0 /*result._data.cases._in_progress*/);
                     $("#in_progress").text(0 /*result._data.cases._enrollment*/);
                     $("#cancelled").text(0 /*result._data.cases._in_progress*/);
-                    $("#interrupted").text(0 /*result._data.cases._enrollment*/);
+                    $("#interrupted").text(0 /*result._data.cases._interrupted*/);
+                    $("#transferred").text(0 /*result._data.cases._transferred*/);
                     $("#enrollment").text(0 /*result._data.cases._enrollment*/);
 
                     $("#alert_count").text(0 /*result._data.cases._enrollment*/);
@@ -421,6 +449,7 @@
                         $('#in_progress').text(result._data.cases._in_progress);
                         $('#cancelled').text(result._data.cases._cancelled);
                         $('#interrupted').text(result._data.cases._interrupted);
+                        $('#transferred').text(result._data.cases._transferred);
                         $('#enrollment').text(result._data.cases._enrollment);
 
                         $('#cases_count').text(sum(result._data.cases) - result._data.cases._enrollment);
@@ -491,6 +520,7 @@
                             $('#in_progress').text(result._data.cases._in_progress);
                             $('#cancelled').text(result._data.cases._cancelled);
                             $('#interrupted').text(result._data.cases._interrupted);
+                            $('#transferred').text(result._data.cases._transferred);
                             $('#enrollment').text(result._data.cases._enrollment);
 
                             $('#created').text(result._data.data_city.created);
