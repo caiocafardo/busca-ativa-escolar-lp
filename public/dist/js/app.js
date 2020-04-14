@@ -11547,11 +11547,9 @@ setTimeout(function () {
     elements.addClass('active');
 }, 100);
 
-
-$('.close-modal').click(function () {
-         elements.removeClass('active');
-});
-
-$(".modal-overlay").click(function(){
-        elements.removeClass('active');
+$(".modal-overlay").click(function () {
+    elements.removeClass('modal');
+    elements.removeClass('active');
+    elements.removeClass('modal-overlay');
+    elements.empty();
 });
