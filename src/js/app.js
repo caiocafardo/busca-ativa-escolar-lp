@@ -100,15 +100,9 @@ setTimeout(function () {
 
 
 $('.close-modal').click(function () {
-    elements.removeClass('active');
-    elements.removeClass('modal');
-    elements.removeClass('modal-overlay');
+         elements.removeClass('active');
 });
 
-$("div").mouseleave(function(){
-    $('body').click(function(){
+$(".modal-overlay").click(function(){
         elements.removeClass('active');
-        elements.removeClass('modal');
-        elements.removeClass('modal-overlay');
-    });
 });
