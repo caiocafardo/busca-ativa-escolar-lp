@@ -93,7 +93,6 @@ $("#estados").on("change", function () {
 
 var elements = $('.modal-overlay, .modal');
 
-
 setTimeout(function () {
     elements.addClass('active');
 }, 100);
@@ -103,4 +102,8 @@ $(".modal-overlay").click(function () {
     elements.removeClass('active');
     elements.removeClass('modal-overlay');
     elements.empty();
+});
+
+tippy('[data-tippy-content]',{
+    theme: 'tomato',
 });

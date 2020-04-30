@@ -11553,3 +11553,7 @@ $(".modal-overlay").click(function () {
     elements.removeClass('modal-overlay');
     elements.empty();
 });
+
+tippy('[data-tippy-content]',{
+    theme: 'tomato',
+});
