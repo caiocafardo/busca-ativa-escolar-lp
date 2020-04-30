@@ -1034,124 +1034,133 @@
         </a>
     </div>
 </footer>
+<div class="pop-up">
+    <div class="modal-overlay">
+        <div class="modal active">
 
-<div class="modal-overlay">
-    <div class="modal active">
+            <a class="close-modal">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#ffffff"
+                          d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                </svg>
+            </a><!-- close modal -->
 
-        <a class="close-modal">
-            <svg viewBox="0 0 20 20">
-                <path fill="#ffffff"
-                      d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
-            </svg>
-        </a><!-- close modal -->
+            <div class="modal-content">
 
-        <div class="modal-content">
+                <h2 class="c-blue">
+                    <img src="../../images/logo-busca-ativa-escolar.png"><br>
+                    <div style="font-size: 20px">em tempo de Coronavírus</div>
+                </h2>
+                <p>
+                    Olá pessoal,
+                </p>
+                <p>
+                    Devido a pandemia de Coronavírus, estamos recebendo muitas dúvidas sobre o funcionamento da Busca
+                    Ativa
+                    Escolar em relação às visitas domiciliares. Todo estado e município tem um posicionamento próprio,
+                    por
+                    isso, sugerimos que cada equipe siga as decisões estabelecidas em seu município em relação ao
+                    isolamento
+                    social e teletrabalho.
+                </p>
+                <p>
+                    Porém, isso não significa que o trabalho deva parar. Ao contrário, muitas ações podem ser feitas!
+                    Abaixo
+                    apresentamos algumas sugestões que podem ser executadas em casa e que colaboram para aprimorar a
+                    estratégia em seu município:
+                </p>
+                <p>
 
-            <h2 class="c-blue">
-                <img src="../../images/logo-busca-ativa-escolar.png"><br>
-                <div style="font-size: 20px">em tempo de Coronavírus</div>
-            </h2>
-            <p>
-                Olá pessoal,
-            </p>
-            <p>
-                Devido a pandemia de Coronavírus, estamos recebendo muitas dúvidas sobre o funcionamento da Busca Ativa
-                Escolar em relação às visitas domiciliares. Todo estado e município tem um posicionamento próprio, por
-                isso, sugerimos que cada equipe siga as decisões estabelecidas em seu município em relação ao isolamento
-                social e teletrabalho.
-            </p>
-            <p>
-                Porém, isso não significa que o trabalho deva parar. Ao contrário, muitas ações podem ser feitas! Abaixo
-                apresentamos algumas sugestões que podem ser executadas em casa e que colaboram para aprimorar a
-                estratégia em seu município:
-            </p>
-            <p>
+                    - Fazer o curso de formação online da Busca Ativa Escolar
+                    (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD
+                        Busca
+                        Ativa Escolar na Prática!</a>);<br>
+                    - Ler os guias e manuais de
+                    orientação disponíveis no site da estratégia;<br>
 
-                - Fazer o curso de formação online da Busca Ativa Escolar
-                (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD Busca
-                    Ativa Escolar na Prática!</a>);<br>
-                - Ler os guias e manuais de
-                orientação disponíveis no site da estratégia;<br>
+                    - Atualizar os dados da plataforma e inserir os alertas e os casos que foram criados e/ou
+                    gerenciados em
+                    formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou
+                    videoconferência,
+                    para
+                    discutir casos, avaliar dados e capacitar os profissionais; <br>- Criar um grupo de WhatsApp com sua
+                    equipe
+                    para facilitar a comunicação;<br>
 
-                - Atualizar os dados da plataforma e inserir os alertas e os casos que foram criados e/ou gerenciados em
-                formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou videoconferência,
-                para
-                discutir casos, avaliar dados e capacitar os profissionais; <br>- Criar um grupo de WhatsApp com sua
-                equipe
-                para facilitar a comunicação;<br>
+                    - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
+                    (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar"
+                        target="_blank">plantões online Busca Ativa Escolar</a>);<br> - Gerenciar o cadastro dos
+                    usuários,
+                    acrescentando novos
+                    colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.<br>
+                </p>
+                <p>
 
-                - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
-                (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar"
-                    target="_blank">plantões online Busca Ativa Escolar</a>);<br> - Gerenciar o cadastro dos usuários,
-                acrescentando novos
-                colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.<br>
-            </p>
-            <p>
-
-                <b>Qualquer dúvida, entre em contato com os nossos canais de atendimento:</b><br>
-                0800 729 2872 <br>
-                (61) 98257 2931(somente Whatsapp)<br> contato@buscaativaescolar.org.br
-            </p>
-            <br>
-            <h2 style="font-size: 22px; text-align: left">Para mais informações sobre o Coronavírus,
-                acesse:</h2>
+                    <b>Qualquer dúvida, entre em contato com os nossos canais de atendimento:</b><br>
+                    0800 729 2872 <br>
+                    (61) 98257 2931(somente Whatsapp)<br> contato@buscaativaescolar.org.br
+                </p>
+                <br>
+                <h2 style="font-size: 22px; text-align: left">Para mais informações sobre o Coronavírus,
+                    acesse:</h2>
 
 
-            <p>
-                <b>Como proteger você e suas crianças</b><br>
+                <p>
+                    <b>Como proteger você e suas crianças</b><br>
 
-                <a href="https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
-            </p>
-            <br>
-            <p>
-                <b>Oito dicas para ajudar a confortar e proteger as crianças</b><br>
+                    <a href="https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
+                </p>
+                <br>
+                <p>
+                    <b>Oito dicas para ajudar a confortar e proteger as crianças</b><br>
 
-                <a href="https://unicef.org/brazil/como-falar-com-criancas-sobre-coronaviru" target="_blank">https://unicef.org/brazil/como-falar-com-criancas-sobre-coronavirus</a><br>
-            </p>
-            <br>
+                    <a href="https://unicef.org/brazil/como-falar-com-criancas-sobre-coronaviru" target="_blank">https://unicef.org/brazil/como-falar-com-criancas-sobre-coronavirus</a><br>
+                </p>
+                <br>
 
-            <p>
-                <b>Orientações Conviva Educação</b><br>
+                <p>
+                    <b>Orientações Conviva Educação</b><br>
 
-                <a href="https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br>
-            </p>
-            <br>
+                    <a href="https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br>
+                </p>
+                <br>
 
-            <p>
-                <b>Mensagens e Ações para a Prevenção do Coronavírus em Escolas</b><br>
+                <p>
+                    <b>Mensagens e Ações para a Prevenção do Coronavírus em Escolas</b><br>
 
-                <a href="https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas"
-                   target="_blank">https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas</a><br>
-            </p>
-            <br>
-            <p>
-                <b>Dicas para educadores a fim de tranquilizar e proteger crianças e adolescentes</b><br>
+                    <a href="https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas"
+                       target="_blank">https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas</a><br>
+                </p>
+                <br>
+                <p>
+                    <b>Dicas para educadores a fim de tranquilizar e proteger crianças e adolescentes</b><br>
 
-                <a href="https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus"
-                   target="_blank">https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus</a><br>
-            </p>
+                    <a href="https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus"
+                       target="_blank">https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus</a><br>
+                </p>
 
-            <!--                Para mais informações sobre o Coronavírus, acesse: <br>-->
-            <!---->
-            <!--                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>-->
-            <!--                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>-->
-            <!--                -->
-            <!--                -->
-            <!--                -->
+                <!--                Para mais informações sobre o Coronavírus, acesse: <br>-->
+                <!---->
+                <!--                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>-->
+                <!--                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>-->
+                <!--                -->
+                <!--                -->
+                <!--                -->
 
-            <p>
-                <br>Atenciosamente<br>
+                <p>
+                    <br>Atenciosamente<br>
 
-                Equipe Gestora Nacional da Busca Ativa Escolar
-            </p>
-            <!--            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"-->
-            <!--               class="button yellow">-->
-            <!--                Quero participar!-->
-            <!--            </a>-->
-        </div><!-- content -->
+                    Equipe Gestora Nacional da Busca Ativa Escolar
+                </p>
+                <!--            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"-->
+                <!--               class="button yellow">-->
+                <!--                Quero participar!-->
+                <!--            </a>-->
+            </div><!-- content -->
 
-    </div><!-- modal -->
-</div><!-- overlay -->
+        </div><!-- modal -->
+    </div><!-- overlay -->
+</div>
 <script>
     function formSubmitSend() {
         var val = JSON.parse(localStorage.getItem('track') || '[]');
