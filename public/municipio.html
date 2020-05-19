@@ -151,12 +151,12 @@
                 <div class="body">
 
                     <div class="section">
-                        <span class="label" data-tippy-content="Caso em andamento: de pesquisa até (re)matrícula">EM ANDAMENTO*</span>
-                        <span class="label-total" id="in_progress">0</span>
+                        <span class="label" data-tippy-content="Caso em andamento: de pesquisa até (re)matrícula">EM ANDAMENTO/ FORA DA ESCOLA*</span>
+                        <span class="label-total" id="out_of_school">0</span>
                     </div>
 
                     <div class="section">
-                        <span class="label" data-tippy-content="Dentro da escola e em observação: de 1ª a 4ª observação">DENTRO DA ESCOLA*</span>
+                        <span class="label" data-tippy-content="Estudantes (re)matriculados: de 1ª à 4ª observação">EM ANDAMENTO/ DENTRO DA ESCOLA*</span>
                         <span class="label-total" id="in_observation">0</span>
                     </div>
 
@@ -166,29 +166,34 @@
                         <span class="label-total" id="in_school">0</span>
                     </div>
 
+                </div>
+
+                <div class="body">
+
                     <div class="section">
                         <span class="label" data-tippy-content="Casos cancelados: em qualquer etapa do processo">CANCELADOS*</span>
                         <span class="label-total" id="cancelled">0</span>
                     </div>
 
                     <div class="section">
-                        <span class="label">TRANSFERIDOS</span>
+                        <span class="label" data-tippy-content="Casos que foram transferidos para outros municípios que fizeram adesão à Busca Ativa Escolar">TRANSFERIDOS*</span>
                         <span class="label-total" id="transferred">0</span>
                     </div>
 
                     <div class="section">
-                        <span class="label">INTERROMPIDOS</span>
+                        <span class="label" data-tippy-content="Estudantes que evadiram durante as etapas de observação e cujo o caso original foi interrompido e caso correlato foi criado na etapa de pesquisa">INTERROMPIDOS*</span>
                         <span class="label-total" id="interrupted">0</span>
                     </div>
 
                 </div>
             </div>
+
             <div class="cases">
                 <div class="header"><span class="label">CRIANÇAS E ADOLESCENTES NA ESCOLA</span>
                 </div>
                 <div class="body">
                     <div class="section">
-                        <span class="label">TOTAL </span>
+                        <span class="label" data-tippy-content="Em andamento/ Dentro da escola + Concluídos">TOTAL* </span>
                         <span class="label-total" id="enrollment">0</span>
                     </div>
                 </div>
@@ -400,15 +405,17 @@
                     $("#pending").text(0 /*result._data.alerts._pending*/);
                     $("#rejected").text(0 /*result._data.alerts._rejected*/);
 
-                    $("#in_school").text(0 /*result._data.cases._in_progress*/);
-                    $("#in_progress").text(0 /*result._data.cases._enrollment*/);
-                    $("#cancelled").text(0 /*result._data.cases._in_progress*/);
+                    $("#in_school").text(0 /*result._data.cases._in_school*/);
+                    $("#out_of_school").text(0 /*result._data.cases.out_of_school*/);
+                    $("#cancelled").text(0 /*result._data.cases._cancelled*/);
                     $("#interrupted").text(0 /*result._data.cases._interrupted*/);
                     $("#transferred").text(0 /*result._data.cases._transferred*/);
-                    $("#enrollment").text(0 /*result._data.cases._enrollment*/);
+                    $("#in_observation").text(0 /*result._data.cases._in_observation*/);
 
-                    $("#alert_count").text(0 /*result._data.cases._enrollment*/);
-                    $("#cases_count").text(0 /*result._data.cases._enrollment*/);
+                    $("#alert_count").text(0);
+                    $("#cases_count").text(0);
+
+                    $("#enrollment").text(0);
 
                     $('#uf').empty();
                     $('#uf').append("<option value=\"\">Todos os estados</option>");
@@ -446,15 +453,15 @@
                         $('#alert_count').text(sum(result._data.alerts));
 
                         $('#in_school').text(result._data.cases._in_school);
-                        $('#in_progress').text(result._data.cases._in_progress);
+                        $('#out_of_school').text(result._data.cases._out_of_school);
                         $('#cancelled').text(result._data.cases._cancelled);
                         $('#interrupted').text(result._data.cases._interrupted);
                         $('#transferred').text(result._data.cases._transferred);
-                        $('#enrollment').text(result._data.cases._enrollment);
+                        $('#in_observation').text(result._data.cases._in_observation);
 
-                        $('#cases_count').text(sum(result._data.cases) - result._data.cases._enrollment);
+                        $('#cases_count').text(sum(result._data.cases));
 
-
+                        $("#enrollment").text( parseInt(result._data.cases._in_school)+parseInt(result._data.cases._in_observation));
 
                         chartCity.data.labels = [];
                         chartCity.data.datasets.forEach((dataset) => {
@@ -517,16 +524,18 @@
                             $('#alert_count').text(sum(result._data.alerts));
 
                             $('#in_school').text(result._data.cases._in_school);
-                            $('#in_progress').text(result._data.cases._in_progress);
+                            $('#out_of_school').text(result._data.cases._out_of_school);
                             $('#cancelled').text(result._data.cases._cancelled);
                             $('#interrupted').text(result._data.cases._interrupted);
                             $('#transferred').text(result._data.cases._transferred);
-                            $('#enrollment').text(result._data.cases._enrollment);
+                            $('#in_observation').text(result._data.cases._in_observation);
 
                             $('#created').text(result._data.data_city.created);
                             $('#status').text(result._data.data_city.status);
 
-                            $('#cases_count').text(sum(result._data.cases) - result._data.cases._enrollment);
+                            $('#cases_count').text(sum(result._data.cases));
+
+                            $("#enrollment").text( parseInt(result._data.cases._in_school)+parseInt(result._data.cases._in_observation) );
 
                             chartCity.data.labels = [];
                             chartCity.data.datasets.forEach((dataset) => {
