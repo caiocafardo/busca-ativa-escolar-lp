@@ -1550,5 +1550,22 @@ footer .footer--wrapper {
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg); } }
+[badge]:after {
+  background: #EECB3D;
+  border-radius: 3px;
+  color: #fff;
+  content: attr(badge);
+  font-size: 9px;
+  margin-top: -16px;
+  margin-left: -30px;
+  min-width: 20px;
+  padding: 2px;
+  position: absolute;
+  text-align: center; }
+
+[badge^="-"]:after,
+[badge="0"]:after,
+[badge=""]:after {
+  display: none; }
 
 /*# sourceMappingURL=app.css.map */
