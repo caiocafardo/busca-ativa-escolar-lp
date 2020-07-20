@@ -1,1 +1,540 @@
-<!doctype html><html lang="pt-br"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"><link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" rel="stylesheet"><title>Volta às aulas Busca Ativa Escolar</title><script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script><script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script><link href="styles.css" rel="stylesheet"></head><body id="volta_as_aulas"><nav class="navbar smart-scroll navbar-light d-block d-sm-none position-fixed"><div class="row"><div class="col-3"><img src="images/menu.png" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"></div><div class="col-9"><span id="nav-brand"><div class="pt-2"></div><div style="padding-left: 30px">BUSCA ATIVA ESCOLAR</div></span><br><span class="badge badge-pill badge-primary">VOLTA ÀS AULAS</span></div></div><div class="collapse navbar-collapse" id="navbarsExampleDefault" style="position:relative; top: -77px"><img src="images/close.png" class="navbar-toggler pt-3 pl-4" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><ul class="navbar-nav mr-auto text-center"><li class="nav-item pb-5"><a href="#"><img src="images/home.png"></a></li><li class="nav-item pb-5"><a class="button buttonr" href="#">Apresentação</a> <img class="icon-menu" src="images/folha.png"></li><li class="nav-item pb-5"><a class="button buttonr" href="#">Enfrentar a crise</a> <img class="icon-menu" src="images/lupa.png"></li><li class="nav-item pb-5"><a class="button buttonr" href="#">Acolher e cuida</a> <img class="icon-menu" src="images/people.png"></li><li class="nav-item pb-5"><a class="button buttonr" href="#">Links</a> <img class="icon-menu" src="images/link.png"></li></ul><footer class="form-inline"><img class="vw-100" src="images/footer-menu.png"></footer></div></nav><div class="d-flex flex-column bg-primary" style="background-image: url('images/banner_home.png')" id="home"><div class="container-fluid bg-cyan_unicef" id="wrap_logo"><div class="text-center"><div id="share-buttons"><span>compartilhe</span><ul><li><a href="http://www.facebook.com/sharer.php?u=https://buscaativaescolar.org.br" target="_blank"><img src="images/icon_facebook_white.png"></a></li><li><a href="https://twitter.com/share?url=https://buscaativaescolar.org.br&amp;text=TEXTO&amp;hashtags=BUSCAATIVAESCOLAR" target="_blank"><img src="images/icon_twitter_white.png"></a></li><li><a href="whatsapp://send?text=Texto!" data-action="share/whatsapp/share"><img src="images/icon_whatsapp_white.png"></a></li><li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://buscaativaescolar.org.br" target="_blank"><img src="images/icon_linkedin_white.png"></a></li><li><a href="mailto:?Subject=Busca Ativa Escolar&amp;Body=Texto"><img src="images/icon_email_white.png"></a></li></ul></div><div><img src="images/logo_bae.png" class="img-fluid" id="logo_bae"><h2><span>VOLTA ÀS AULAS</span></h2></div></div></div><div class="container-fluid text-center" id="wrap_arrow_down"><a href="#section_one"><img src="images/arrow_down.png" class="animate__repeat-1 1 animate__animated animate__shakeY animate__slow animate__delay-3s"></a></div><div id="wrap_logos"><div class="d-flex justify-content-between flex-row" id="logos"><div class="logo align-self-center"><a href="#"><img src="images/logo_undime.png" class="img-fluid"></a></div><div class="logo align-self-center"><a href="#"><img src="images/logo_congemas.png" class="img-fluid"></a></div><div class="logo align-self-center"><a href="#"><img src="images/logo_conasems.png" class="img-fluid"></a></div><div class="logo align-self-center"><a href="#"><img src="images/logo_unicef.png" class="img-fluid"></a></div></div></div></div><div class="container-fluid section" id="section_one"><div class="row"><div class="col-md-12 content_session"><div class="banner_section"><img src="images/banner_apresentacao.png" class="img-fluid" height="100%" width="100%"></div><div class="title_icon d-flex"><div class="icon_section"><img src="images/icon_apresentacao.png"></div><div><div class="wrap_share"><a data-placement="top" data-toggle="popover" data-content="&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://buscaativaescolar.org.br&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;images/icon_facebook_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://buscaativaescolar.org.br&amp;amp;text=TEXTO&amp;amp;hashtags=BUSCAATIVAESCOLAR&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;images/icon_twitter_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;whatsapp://send?text=Texto!&quot; data-action=&quot;share/whatsapp/share&quot;&gt; &lt;img src=&quot;images/icon_whatsapp_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;http://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://buscaativaescolar.org.br&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;images/icon_linkedin_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;mailto:?Subject=Busca Ativa Escolar&amp;amp;Body=Texto&quot;&gt; &lt;img src=&quot;images/icon_email_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt;"><img src="images/share.png"> </a>Compartilhe</div><div class="wrap_h3"><h3 class="destaq"><h3 class="destaq"><span>APRESENTAÇÃO</span></h3><div class="line_left_button"></div></h3></div></div></div><div class="text_volta"><p>O Guia Busca Ativa Escolar na Volta às Aulas visa apoiar governos estaduais e municipais na garantia do direito à educação de cada criança e cada adolescente na volta às escolas presenciais após o período de isolamento devido à pandemia da covid-19.</p><p>A situação de vulnerabilidade socioeconômica de muitas famílias pode ter se agravado com a pandemia, o que pode levar a um aumento do abandono e da evasão escolares. Por isso, é necessário que a rede de proteção esteja mais do que nunca alerta, fortalecida e atuante para que todas as meninas e meninos sejam atendidos pelos serviços públicos e tenham seus direitos integralmente garantidos, sobretudo o direito à educação.</p><p>Sabemos que o cenário tem sido muito dinâmico, exigindo intervenções e adaptações constantes da sociedade como um todo. Nesse sentido, governos municipais e estaduais têm empreendido esforços para planejar e efetivar o retorno às aulas de suas respectivas redes de ensino com base em protocolos sanitários que garantam a integridade da saúde e da vida dos(as) estudantes, profissionais da educação e familiares. Parte-se do princípio que esse retorno ocorrerá de maneiras e em tempos diferenciados, o que exige atenção especial e preparação de todo o sistema educacional brasileiro.</p><p>É nesse contexto desafiador que elaboramos o presente Guia, pois a Busca Ativa Escolar é uma estratégia que visa colaborar com estados e municípios no enfrentamento da exclusão escolar, no fortalecimento da intersetorialidade entre as políticas e os serviços públicos, na promoção da atuação comunitária e familiar, bem como no fomento ao regime de colaboração entre os entes federados. E, assim como as redes educacionais, a estratégia também deve ser adaptada para atender às necessidades que o momento de crise impõe.</p><p>O material está dividido em três seções:</p><div class="d-flex justify-content-center icons"><div class="item_icons"><img src="images/icon_orientacoes.png"><p>Orientações para potencializar a Busca Ativa Escolar e enfrentar a crise.</p></div><div class="item_icons"><img src="images/icon_acolhimento.png"><p>Orientações para o acolhimento e o cuidado dentro das escolas.</p></div><div class="item_icons"><img src="images/icon_link.png"><p>Links importantes para o acesso a outras informações que ajudarão os interessados a aprofundar os assuntos tratados no Guia.</p></div></div><p>As duas primeiras seções contam também com produtos complementares, tais como vídeos, spots de rádio, podcasts e objetos digitais. Eles estão disponíveis nos botões e ícones, em hiperlinks ao longo do texto ou no item “Saiba mais”, logo abaixo de cada tópico.</p><h4>SOBRE A BUSCA ATIVA ESCOLAR</h4><p>A Busca Ativa Escolar é uma metodologia social e uma plataforma tecnológica gratuitas que apoiam municípios e estados no enfrentamento da exclusão escolar. Ela foi desenvolvida pelo UNICEF, em parceria com a União Nacional dos Dirigentes Municipais de Educação (Undime), o Colegiado Nacional de Gestores Municipais de Assistência Social (Congemas) e o Conselho Nacional de Secretarias Municipais de Saúde (Conasems). Até junho de 2020, mais de 3.140 municípios e 16 estados haviam aderido à estratégia e encontram-se em diferentes estágios de implementação. Este guia compõe as ações de apoio técnico e de suporte aos municípios e estados participantes. Além dele, no site da Busca Ativa Escolar estão disponíveis outros guias, manuais, estudos e materiais e um curso online, aberto à participação de qualquer pessoa interessada.</p><br/><section id="map-section"><div class=""><div class="text-center"><h4>Busca Ativa Escolar em números</h4><p>Dados atuais</p></div><br/><div id="app" v-cloak><div class="row"><div class="col-md-4 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"><div class="box-text-map"><a href="#" class="button">Clique Aqui</a><p class="description mt-0">e verifique se o seu<br>município ou estado<br>já fizeram a adesão á<br>Busca Ativa Escolar</p></div></div><div class="col-md-8"><div class="map"><div class="centered-map"><div class="numbers">{{ data.municipios | formatNumber}}</div><div class="sub-title-map text-center">Municípios</div><div class="numbers">{{ data.estados }}</div><div class="sub-title-map text-center">Estados</div></div></div></div><div class="col-md-4 d-block d-sm-none d-none d-sm-block d-md-none"><div class="box-text-map"><a href="#" class="button">Clique Aqui</a><p class="description mt-0">e verifique se o seu<br>município ou estado<br>já fizeram a adesão á<br>Busca Ativa Escolar</p></div></div></div></div></div></section><p>Os municípios e estados brasileiros que ainda não aderiram à Busca Ativa Escolar podem fazê-lo a qualquer momento e, assim, se beneficiarem de uma estratégia que contribui muito para mudar a realidade das crianças e adolescentes. Para saber como proceder, veja o <a href="#">passo a passo</a> e acesse o site <a href="buscaativaescolar.org.br" target="_blank">buscaativaescolar.org.br</a> .</p><h4>Boletim UNICEF 1</h4><iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><div class="footer_spotify d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div><h4>Boletim UNICEF 2</h4><iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><div class="footer_spotify d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div></div><div class="box_destaq"><div class="title"><h5>Prioridade absoluta</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="destaq_content"><p>A Convenção dos Direitos da Criança (CDC, 1989) e o Estatuto da Criança e do Adolescente (ECA, 1990) asseguram a prioridade absoluta das crianças e adolescentes nas políticas públicas, visando a efetivação do seu direito à vida, à saúde, à educação, à proteção, dentre outros. Desse modo, é importante que nesse momento de crise devido à pandemia da covid-19, o interesse superior de meninas e meninos seja garantido, como determinam as normativas. Todos os esforços devem ser empreendidos pelo governo, nas três esferas, bem como pelas famílias, comunidades e sociedade como um todo, a fim de mitigar os efeitos da crise sobre esse público, garantindo-lhe condições de vida e de pleno desenvolvimento.</p><div class="more_destaq"><h6 class="plus_more"><i class="fas fa-plus"></i> Saiba mais</h6><p><a href="" target="_blank" class="link_more"><i>Conheça o Sistema de Garantia de Direitos da Criança e do Adolescente.</i> <i class="far fa-play-circle"></i></a></p></div></div></div><div class="next_session"><a href="#section_two"><img src="images/arrow_down_blue.png"></a></div><div class="menu text-right"><ul div="menu_list"><li class="section_menu" id="menu"><a href="#home"><i class="fa fa-home"></i></a></li><li class="section_menu" id="menu_section_one"><a href="#section_one"><button class="bt_menu">Apresentação</button><div class="line_right_button"></div><i class="fa fa-sticky-note"></i></a></li><li class="section_menu" id="menu_section_two"><a href="#section_two"><button class="bt_menu">Enfrentar a crise</button><div class="line_right_button"></div><i class="fa fa-search"></i></a><ul class="submenu" style="display: none"><li class="section_submenu"><a href="#adaptacao">Adaptar a Busca Ativa Escolar</a></li><li class="section_submenu"><a href="#retorno">Retorno ao trabalho de campo</a></li><li class="section_submenu"><a href="#mapeamento">Mapear a exclusão escolar</a></li><li class="section_submenu"><a href="#dialogo">Diálogo intersetorial</a></li></ul></li><li class="section_menu" id="menu_section_three"><a href="#section_three"><button class="bt_menu">Acolher e cuidar</button><div class="line_right_button"></div><i class="fa fa-hand-holding"></i></a></li><li class="section_menu" id="menu_section_four"><a href="#section_four"><button class="bt_menu">Links</button><div class="line_right_button"></div><i class="fa fa-link"></i></a></li></ul></div></div></div></div><div class="container-fluid section" id="section_two"><div class="row"><div class="col-md-12 content_session"><div class="banner_section"><img src="images/banner_enfrentar_a_crise.png" class="img-fluid" height="100%" width="100%"></div><div class="title_icon d-flex"><div class="icon_section"><img src="images/icon_enfrentar_a_crise.png"></div><div><div class="wrap_share"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><div class="wrap_h3"><h3 class="simple">COMO POTENCIALIZAR A BUSCA ATIVA ESCOLAR E</h3><h3 class="destaq"><span>ENFRENTAR A CRISE</span></h3><div class="line_left_button"></div></div></div></div><div class="text_volta"><p>Nesta seção destacamos como a Busca Ativa Escolar pode ser potencializada nesse momento de crise para prevenir e para enfrentar a exclusão escolar. Trata-se de informações ancoradas na metodologia social e na ferramenta tecnológica. Por isso, sugerimos que antes de aplicar as recomendações, as equipes voltem aos manuais, guias e demais produtos, disponíveis na aba <a href="#" target="_blank">biblioteca</a> do site da estratégia, para retomarem seus principais pontos.</p><p>É importante salientar que no retorno ao atendimento presencial dos diversos serviços públicos, estes terão que realizar ações de busca ativa, visto que muitas crianças e adolescentes podem ter acentuado sua situação de vulnerabilidade devido à crise.</p><div class="quote_destaq_one"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">CLIQUE AQUI<br/><span>PARA ACESSAR</span><br/>O MODELO<br/>DE POPUPS</a></div><div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">...</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div></div></div></div><p>O cenário atual indica a possibilidade de aumento do trabalho infantil e/ou precário para adolescentes, de casos de violências física e sexual e de intensificação de violações junto a públicos já bastante vulneráveis, como crianças e adolescentes em situação de rua, em abrigamento institucional, com deficiência, pertencentes a comunidades tradicionais e adolescentes em cumprimento de medidas socioeducativas em meio fechado.</p><p>Na educação, presume-se que os fenômenos relacionados ao abandono, à distorção idade-série (dois anos ou mais de atraso escolar), às dificuldades de aprendizagem e à evasão escolar sofrerão crescimento preocupante em suas estatísticas. Isso exige das redes de ensino um <a href="#">acompanhamento mais intenso dos estudantes já matriculados <i class="far fa-file-pdf"></i></a> , a fim de prevenir e enfrentar esse quadro. Por isso a Busca Ativa Escolar é tão estratégica nesse momento, pois conta com um <a href="#">desenho intersetorial <i class="far fa-file-pdf"></i></a> já testado e comprovado que pode atender às várias políticas públicas, além da educação. Nesse sentido, recomendamos que quando um(a) técnico(a) da educação, da assistência social ou da saúde saia a campo para fazer ações de intervenção social, já realize a busca ativa de possíveis usuários para todas as áreas, a fim de encaminhá-los para os respectivos serviços, otimizando tempo e facilitando processos.</p><div class="quote_destaq_two"><span>3.140</span><br/>Lorem ipsum<br/>dolor sit amet</div><p>Nesse sentido, recomendamos que quando um(a) técnico(a) da educação, da assistência social ou da saúde saia a campo para fazer ações de intervenção social, já realize a busca ativa de possíveis usuários para todas as áreas, a fim de encaminhá-los para os respectivos serviços, otimizando tempo e facilitando processos.</p><p>Por exemplo: identifica-se uma adolescente que evadiu da escola durante o período de isolamento e que está grávida, porém, sem fazer pré-natal ou identifica-se uma criança que evadiu da escola, parou de frequentar as ações ofertadas pelo CRAS e está trabalhando. Em ambos os casos é possível, por meio da Busca Ativa Escolar, providenciar os encaminhamentos de rede necessários e a articulação entre as diferentes <a href="#">políticas, programas e ações públicas<i class="far fa-file-pdf"></i></a> .</p><h6 class="plus_more"><i class="fas fa-plus"></i> Saiba mais</h6><p><a href="" target="_blank" class="link_more"><i>Busca Ativa Escolar: o retorno do estudante à escola.</i> <i class="far fa-play-circle"></i></a></p></div><div class="box_video"><div class="title"><h5>Título Vídeo Loreem ipsum</h5><div class="border_h5"><img src="images/border_h5_blank.png" class="img-fluid"></div></div><div class="destaq_content"><iframe width="100%" height="447" src="https://www.youtube.com/embed/5AmLQ90IQ_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="footer_spotify blank d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div></div></div><div class="text_volta"><h4>Boletim UNICEF 2</h4><iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><div class="footer_spotify d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div></div><div class="subtitle" id="adaptacao"><h5>Adaptação da Busca Ativa Escolar para o retorno às aulas</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="text_volta"><div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><p class="read-more js-read-more" data-rm-words="60">Nesse momento de preparação ou de volta às aulas, recomendamos a revisão da estratégia para responder às necessidades impostas pela crise. Para isso é preciso que as equipes, tanto dos municípios como dos estados, adaptem seus <a href="#">Planos de Ação</a> para atender às demandas mais urgentes e prioritárias no que se referem à garantia de direitos de meninas e meninos. Nessa adaptação recomendamos as seguintes ações:</p></div><div class="subtitle" id="retorno"><h5>Retorno do trabalho de campo</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="text_volta"><div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><p class="read-more js-read-more" data-rm-words="40">Com a volta às aulas e o fim do isolamento, é necessário que a equipe da Busca Ativa Escolar em cada município reorganize seu trabalho de campo. Ressaltamos, contudo, que apesar da quarentena ter sido suspensa em muitos municípios, os riscos ainda permanecem, exigindo que esse trabalho seja feito seguindo-se todo o protocolo de segurança à saúde necessário.</p></div><div class="subtitle" id="mapeamento"><h5>Mapeamento dos motivos de exclusão escolar</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="text_volta"><div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><p class="read-more js-read-more" data-rm-words="40">Avaliar o cenário e perceber como a exclusão escolar ocorre em cada município / estado nesse momento é muito importante para orientar as ações da administração municipal / estadual de acordo com a sua realidade. Com a retomada das ações do Grupo de Campo será possível verificar:</p></div><div class="subtitle" id="dialogo"><h5>Diálogo intersetorial</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="text_volta"><div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><p class="read-more js-read-more" data-rm-words="40">Nesse momento é muito importante acionar o Comitê Gestor Intersetorial para que contribua na análise sobre o cenário do município / estado e nas ações prioritárias e emergenciais que precisam ser tomadas para garantir os direitos de crianças e adolescentes. Recomendamos que o plano de ação adaptado para a crise seja apresentado a esse Comitê, de antemão destacando-se para discussão:</p></div><div class="text_volta"><h4>Boletim UNICEF 2</h4><iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><div class="footer_spotify d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div></div><div class="text_volta"><h4>Boletim UNICEF 2</h4><iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><div class="footer_spotify d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div></div><div class="next_session"><a href="#section_three"><img src="images/arrow_down_blue.png"></a></div></div></div></div><div class="container-fluid section" id="section_three"><div class="row"><div class="col-md-12 content_session"><div class="banner_section"><img src="images/banner_orientacoes.png" class="img-fluid" height="100%" width="100%"></div><div class="title_icon d-flex"><div class="icon_section"><img src="images/icon_acolhimento.png"></div><div><div class="wrap_share"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><div class="wrap_h3"><h3 class="simple">ORIENTAÇÕES PARA O</h3><h3 class="destaq"><span>ACOLHIMENTO E O CUIDADO</span></h3><div class="line_left_button"></div><h3 class="simple">DENTRO DAS ESCOLAS</h3></div></div></div><div class="text_volta"><p>Nesta seção apresentamos as recomendações para o retorno dos estudantes às escolas, elaboradas pelos parceiros da Busca Ativa Escolar.</p><p>São recomendações amplas, abrangendo todos os estudantes. No entanto, reforçamos a necessidade de um olhar mais acurado para as crianças e adolescentes que foram inseridos na escola por meio da Busca Ativa Escolar, uma vez que possuem um perfil de maior vulnerabilidade e que pode ter se intensificado durante a crise.</p><p>São meninas e meninos que muitas vezes passaram um longo período fora da escola e estão em situação de distorção idade-série. Portanto, voltar para a escola foi um passo importante para eles, e, nesse momento, agregado a todas as condições impostas pela pandemia.</p></div><div class="box_video"><div class="title"><h5>Título Vídeo Loreem ipsum</h5><div class="border_h5"><img src="images/border_h5_blank.png" class="img-fluid"></div></div><div class="destaq_content"><iframe width="100%" height="447" src="https://www.youtube.com/embed/5AmLQ90IQ_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="footer_spotify blank d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div></div></div><div class="text_volta"><h4>Boletim UNICEF 2</h4><iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><div class="footer_spotify d-flex"><div class="description"><i>LOREM IPSUN IN DOLOR</i></div><div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i class="fas fa-download"></i></a></div></div></div><div class="subtitle" id="informacoes_em_saude"><h5>Informações em Saúde</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="text_volta"><div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><p class="read-more js-read-more" data-rm-words="60">Como afirmamos na introdução deste Guia, cada rede de educação está vivenciando ou vai vivenciar o retorno às aulas presenciais de forma distinta, porém, seguindo as determinações das administrações estaduais e/ou municipais e dos seus respectivos conselhos de educação. Ainda assim, algumas recomendações gerais podem ser úteis para colaborar nesse processo, a fim de seguir os protocolos da Organização Mundial de Saúde acerca da proteção à saúde e de mitigar as possibilidades de contágio. Algumas ações importantes para organizar esse retorno são:</p></div><div class="subtitle" id="como_conversar_com_os_estudantes"><h5>Como conversar com os estudantes sobre a pandemia</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="text_volta"><div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><p class="read-more js-read-more" data-rm-words="60">Com a volta às aulas e o fim do isolamento, é necessário que a equipe da Busca Ativa Escolar em cada município reorganize seu trabalho de campo. Ressaltamos, contudo, que apesar da quarentena ter sido suspensa em muitos municípios, os riscos ainda permanecem, exigindo que esse trabalho seja feito seguindo-se todo o protocolo de segurança à saúde necessário. Para isso é importante que as equipes tenham acesso, por exemplo, a álcool 70% e máscaras; que evitem qualquer tipo de contato físico com as famílias, como aperto de mão; que planejem reuniões segmentadas, a fim de evitar qualquer tipo de aglomeração, e que tomem os devidos cuidados para não colocar em risco a sua segurança e a das outras pessoas. Recomendamos as seguintes ações:</p></div><div class="box_destaq"><div class="title"><h5>Deixa que eu te conto</h5><div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div></div><div class="destaq_content"><p>Conheça o podcast diário do UNICEF para crianças e suas famílias em tempos de coronavírus:</p><p>Deixa que Eu Conto é voltado a meninas e meninos em idade de frequentar a pré-escola e em processo de alfabetização (anos iniciais do ensino fundamental), que trazem histórias, brincadeiras e atividades.</p><p>UNICEF convida crianças de todo o Brasil a desenhar e contar como estão se sentindo neste período de coronavírus. Conheça a campanha Sentimentos no Papel.</p><div class="more_destaq"><h6 class="plus_more"><i class="fas fa-plus"></i> Saiba mais</h6><p><a href="" target="_blank" class="link_more"><i>Conheça o Sistema de Garantia de Direitos da Criança e do Adolescente.</i> <i class="far fa-play-circle"></i></a></p></div></div></div><div class="next_session"><a href="#section_four"><img src="images/arrow_down_blue.png"></a></div></div></div></div><div class="container-fluid section" id="section_four"><div class="row"><div class="col-md-12 content_session"><div class="banner_section"><img src="images/banner_links.png" class="img-fluid" height="100%" width="100%"></div><div class="title_icon d-flex"><div class="icon_section"><img src="images/icon_link.png"></div><div><div class="wrap_share"><a href="#"><img src="images/share.png"> </a>Compartilhe</div><div class="wrap_h3"><h3 class="destaq"><span>LINKS IMPORTANTES</span></h3><div class="line_left_button"></div></div></div></div><div class="text_volta"><p></p><ul class="list_links"><li><a href="#">Carta da marcha global contra o trabalho infantil frente à pandemia da covid-19. Marcha Global</a></li><li><a href="#">Como promover educação em tempos de coronavírus. Coalização de organizações sociais</a></li><li><a href="#">Coronavírus (Covid-19): O que você precisa saber. UNICEF</a></li><li><a href="#">Guia: A implementação no estado. Busca Ativa Escolar</a></li><li><a href="#">Guia: A implementação no município. Busca Ativa Escolar</a></li><li><a href="#">Guia: Entenda a metodologia social e a ferramenta tecnológica. Busca Ativa Escolar</a></li><li><a href="#">Recomendação aos Conselhos municipais de educação sobre a matrícula de fluxo contínuo. Uncme</a></li><li><a href="#">Portaria 001/2020, que estabelece orientações gerais e critérios para ações das Coordenações Estaduais, Vice- Presidências e Diretorias da UNCME com referência ao acompanhamento do combate ao COVID-19. Uncme</a></li><li><a href="#">Nota do Congemas sobre demandas urgentes para garantir assistência social nos municípios em decorrência do coronavírus (covid-19). Congemas. Conviva! – Combate ao coronavírus</a></li><li><a href="#">Vídeo Busca Ativa Escolar: Em tempo de coronavírus</a></li><li><a href="#">Busca Ativa Escolar em Pílulas: Recomendações para a Busca Ativa Escolar durante a covid-19</a></li><li><a href="#">Cenário da exclusão escolar</a></li><li><a href="#">Diretrizes para protocolo de retorno às aulas presenciais – Consed</a></li></ul><p></p></div></div></div></div><script src="main.js"></script></body></html>
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" rel="stylesheet">
+    <title>Volta às aulas Busca Ativa Escolar</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body id="volta_as_aulas">
+<nav class="navbar smart-scroll navbar-light d-block d-sm-none position-fixed">
+    <div class="row">
+        <div class="col-3"><img src="images/menu.png" class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                                aria-expanded="false" aria-label="Toggle navigation"></div>
+        <div class="col-9"><span id="nav-brand"><div class="pt-2"></div><div style="padding-left: 30px">BUSCA ATIVA ESCOLAR</div></span><br><span
+                class="badge badge-pill badge-primary">VOLTA ÀS AULAS</span></div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault" style="position:relative; top: -77px"><img
+            src="images/close.png" class="navbar-toggler pt-3 pl-4" type="button" data-toggle="collapse"
+            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <ul class="navbar-nav mr-auto text-center">
+            <li class="nav-item pb-5"><a href="#"><img src="images/home.png"></a></li>
+            <li class="nav-item pb-5"><a class="button buttonr" href="#">Apresentação</a> <img class="icon-menu"
+                                                                                               src="images/folha.png">
+            </li>
+            <li class="nav-item pb-5"><a class="button buttonr" href="#">Enfrentar a crise</a> <img class="icon-menu"
+                                                                                                    src="images/lupa.png">
+            </li>
+            <li class="nav-item pb-5"><a class="button buttonr" href="#">Acolher e cuida</a> <img class="icon-menu"
+                                                                                                  src="images/people.png">
+            </li>
+            <li class="nav-item pb-5"><a class="button buttonr" href="#">Links</a> <img class="icon-menu"
+                                                                                        src="images/link.png"></li>
+        </ul>
+        <footer class="form-inline"><img class="vw-100" src="images/footer-menu.png"></footer>
+    </div>
+</nav>
+<div class="d-flex flex-column bg-primary" style="background-image: url('images/banner_home.png')" id="home">
+    <div class="container-fluid bg-cyan_unicef" id="wrap_logo">
+        <div class="text-center">
+            <div id="share-buttons"><span>compartilhe</span>
+                <ul>
+                    <li><a href="http://www.facebook.com/sharer.php?u=https://buscaativaescolar.org.br" target="_blank"><img
+                            src="images/icon_facebook_white.png"></a></li>
+                    <li>
+                        <a href="https://twitter.com/share?url=https://buscaativaescolar.org.br&amp;text=TEXTO&amp;hashtags=BUSCAATIVAESCOLAR"
+                           target="_blank"><img src="images/icon_twitter_white.png"></a></li>
+                    <li><a href="whatsapp://send?text=Texto!" data-action="share/whatsapp/share"><img
+                            src="images/icon_whatsapp_white.png"></a></li>
+                    <li>
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://buscaativaescolar.org.br"
+                           target="_blank"><img src="images/icon_linkedin_white.png"></a></li>
+                    <li><a href="mailto:?Subject=Busca Ativa Escolar&amp;Body=Texto"><img
+                            src="images/icon_email_white.png"></a></li>
+                </ul>
+            </div>
+            <div><img src="images/logo_bae.png" class="img-fluid" id="logo_bae">
+                <h2><span>VOLTA ÀS AULAS</span></h2></div>
+        </div>
+    </div>
+    <div class="container-fluid text-center" id="wrap_arrow_down"><a href="#section_one"><img
+            src="images/arrow_down.png"
+            class="animate__repeat-1 1 animate__animated animate__shakeY animate__slow animate__delay-3s"></a></div>
+    <div id="wrap_logos">
+        <div class="d-flex justify-content-between flex-row" id="logos">
+            <div class="logo align-self-center"><a href="#"><img src="images/logo_undime.png" class="img-fluid"></a>
+            </div>
+            <div class="logo align-self-center"><a href="#"><img src="images/logo_congemas.png" class="img-fluid"></a>
+            </div>
+            <div class="logo align-self-center"><a href="#"><img src="images/logo_conasems.png" class="img-fluid"></a>
+            </div>
+            <div class="logo align-self-center"><a href="#"><img src="images/logo_unicef.png" class="img-fluid"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section" id="section_one">
+    <div class="row">
+        <div class="col-md-12 content_session">
+            <div class="banner_section"><img src="images/banner_apresentacao.png" class="img-fluid" height="100%"
+                                             width="100%"></div>
+            <div class="title_icon d-flex">
+                <div class="icon_section"><img src="images/icon_apresentacao.png"></div>
+                <div>
+                    <div class="wrap_share"><a data-placement="top" data-toggle="popover"
+                                               data-content="&lt;a href=&quot;http://www.facebook.com/sharer.php?u=https://buscaativaescolar.org.br&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;images/icon_facebook_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;https://twitter.com/share?url=https://buscaativaescolar.org.br&amp;amp;text=TEXTO&amp;amp;hashtags=BUSCAATIVAESCOLAR&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;images/icon_twitter_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;whatsapp://send?text=Texto!&quot; data-action=&quot;share/whatsapp/share&quot;&gt; &lt;img src=&quot;images/icon_whatsapp_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;http://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://buscaativaescolar.org.br&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;images/icon_linkedin_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt; &lt;a href=&quot;mailto:?Subject=Busca Ativa Escolar&amp;amp;Body=Texto&quot;&gt; &lt;img src=&quot;images/icon_email_color.png&quot; height=&quot;40px&quot;&gt; &lt;/a&gt;"><img
+                            src="images/share.png"> </a>Compartilhe
+                    </div>
+                    <div class="wrap_h3">
+                        <h3 class="destaq"><h3 class="destaq"><span>APRESENTAÇÃO</span></h3>
+                            <div class="line_left_button"></div>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="text_volta"><p>O Guia Busca Ativa Escolar na Volta às Aulas visa apoiar governos estaduais e
+                municipais na garantia do direito à educação de cada criança e cada adolescente na volta às escolas
+                presenciais após o período de isolamento devido à pandemia da covid-19.</p>
+                <p>A situação de vulnerabilidade socioeconômica de muitas famílias pode ter se agravado com a pandemia,
+                    o que pode levar a um aumento do abandono e da evasão escolares. Por isso, é necessário que a rede
+                    de proteção esteja mais do que nunca alerta, fortalecida e atuante para que todas as meninas e
+                    meninos sejam atendidos pelos serviços públicos e tenham seus direitos integralmente garantidos,
+                    sobretudo o direito à educação.</p>
+                <p>Sabemos que o cenário tem sido muito dinâmico, exigindo intervenções e adaptações constantes da
+                    sociedade como um todo. Nesse sentido, governos municipais e estaduais têm empreendido esforços para
+                    planejar e efetivar o retorno às aulas de suas respectivas redes de ensino com base em protocolos
+                    sanitários que garantam a integridade da saúde e da vida dos(as) estudantes, profissionais da
+                    educação e familiares. Parte-se do princípio que esse retorno ocorrerá de maneiras e em tempos
+                    diferenciados, o que exige atenção especial e preparação de todo o sistema educacional
+                    brasileiro.</p>
+                <p>É nesse contexto desafiador que elaboramos o presente Guia, pois a Busca Ativa Escolar é uma
+                    estratégia que visa colaborar com estados e municípios no enfrentamento da exclusão escolar, no
+                    fortalecimento da intersetorialidade entre as políticas e os serviços públicos, na promoção da
+                    atuação comunitária e familiar, bem como no fomento ao regime de colaboração entre os entes
+                    federados. E, assim como as redes educacionais, a estratégia também deve ser adaptada para atender
+                    às necessidades que o momento de crise impõe.</p>
+                <p>O material está dividido em três seções:</p>
+                <div class="d-flex justify-content-center icons">
+                    <div class="item_icons"><img src="images/icon_orientacoes.png">
+                        <p>Orientações para potencializar a Busca Ativa Escolar e enfrentar a crise.</p></div>
+                    <div class="item_icons"><img src="images/icon_acolhimento.png">
+                        <p>Orientações para o acolhimento e o cuidado dentro das escolas.</p></div>
+                    <div class="item_icons"><img src="images/icon_link.png">
+                        <p>Links importantes para o acesso a outras informações que ajudarão os interessados a
+                            aprofundar os assuntos tratados no Guia.</p></div>
+                </div>
+                <p>As duas primeiras seções contam também com produtos complementares, tais como vídeos, spots de rádio,
+                    podcasts e objetos digitais. Eles estão disponíveis nos botões e ícones, em hiperlinks ao longo do
+                    texto ou no item “Saiba mais”, logo abaixo de cada tópico.</p><h4>SOBRE A BUSCA ATIVA ESCOLAR</h4>
+                <p>A Busca Ativa Escolar é uma metodologia social e uma plataforma tecnológica gratuitas que apoiam
+                    municípios e estados no enfrentamento da exclusão escolar. Ela foi desenvolvida pelo UNICEF, em
+                    parceria com a União Nacional dos Dirigentes Municipais de Educação (Undime), o Colegiado Nacional
+                    de Gestores Municipais de Assistência Social (Congemas) e o Conselho Nacional de Secretarias
+                    Municipais de Saúde (Conasems). Até junho de 2020, mais de 3.140 municípios e 16 estados haviam
+                    aderido à estratégia e encontram-se em diferentes estágios de implementação. Este guia compõe as
+                    ações de apoio técnico e de suporte aos municípios e estados participantes. Além dele, no site da
+                    Busca Ativa Escolar estão disponíveis outros guias, manuais, estudos e materiais e um curso online,
+                    aberto à participação de qualquer pessoa interessada.</p><br/>
+                <section id="map-section">
+                    <div class="">
+                        <div class="text-center"><h4>Busca Ativa Escolar em números</h4>
+                            <p>Dados atuais</p></div>
+                        <br/>
+                        <div id="app" v-cloak>
+                            <div class="row">
+                                <div class="col-md-4 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                                    <div class="box-text-map"><a href="#" class="button">Clique Aqui</a>
+                                        <p class="description mt-0">e verifique se o seu<br>município ou estado<br>já
+                                            fizeram a adesão á<br>Busca Ativa Escolar</p></div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="map">
+                                        <div class="centered-map">
+                                            <div class="numbers">{{ data.municipios | formatNumber}}</div>
+                                            <div class="sub-title-map text-center">Municípios</div>
+                                            <div class="numbers">{{ data.estados }}</div>
+                                            <div class="sub-title-map text-center">Estados</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-block d-sm-none d-none d-sm-block d-md-none">
+                                    <div class="box-text-map"><a href="#" class="button">Clique Aqui</a>
+                                        <p class="description mt-0">e verifique se o seu<br>município ou estado<br>já
+                                            fizeram a adesão á<br>Busca Ativa Escolar</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <p>Os municípios e estados brasileiros que ainda não aderiram à Busca Ativa Escolar podem fazê-lo a
+                    qualquer momento e, assim, se beneficiarem de uma estratégia que contribui muito para mudar a
+                    realidade das crianças e adolescentes. Para saber como proceder, veja o <a href="#">passo a
+                        passo</a> e acesse o site <a href="buscaativaescolar.org.br" target="_blank">buscaativaescolar.org.br</a>
+                    .</p><h4>Boletim UNICEF 1</h4>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%"
+                        height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <div class="footer_spotify d-flex">
+                    <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                    <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                            class="fas fa-download"></i></a></div>
+                </div>
+                <h4>Boletim UNICEF 2</h4>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%"
+                        height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <div class="footer_spotify d-flex">
+                    <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                    <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                            class="fas fa-download"></i></a></div>
+                </div>
+            </div>
+            <div class="box_destaq">
+                <div class="title"><h5>Prioridade absoluta</h5>
+                    <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+                </div>
+                <div class="destaq_content"><p>A Convenção dos Direitos da Criança (CDC, 1989) e o Estatuto da Criança e
+                    do Adolescente (ECA, 1990) asseguram a prioridade absoluta das crianças e adolescentes nas políticas
+                    públicas, visando a efetivação do seu direito à vida, à saúde, à educação, à proteção, dentre
+                    outros. Desse modo, é importante que nesse momento de crise devido à pandemia da covid-19, o
+                    interesse superior de meninas e meninos seja garantido, como determinam as normativas. Todos os
+                    esforços devem ser empreendidos pelo governo, nas três esferas, bem como pelas famílias, comunidades
+                    e sociedade como um todo, a fim de mitigar os efeitos da crise sobre esse público, garantindo-lhe
+                    condições de vida e de pleno desenvolvimento.</p>
+                    <div class="more_destaq"><h6 class="plus_more"><i class="fas fa-plus"></i> Saiba mais</h6>
+                        <p><a href="" target="_blank" class="link_more"><i>Conheça o Sistema de Garantia de Direitos da
+                            Criança e do Adolescente.</i> <i class="far fa-play-circle"></i></a></p></div>
+                </div>
+            </div>
+            <div class="next_session"><a href="#section_two"><img src="images/arrow_down_blue.png"></a></div>
+            <div class="menu text-right">
+                <ul div="menu_list">
+                    <li class="section_menu" id="menu"><a href="#home"><i class="fa fa-home"></i></a></li>
+                    <li class="section_menu" id="menu_section_one"><a href="#section_one">
+                        <button class="bt_menu">Apresentação</button>
+                        <div class="line_right_button"></div>
+                        <i class="fa fa-sticky-note"></i></a></li>
+                    <li class="section_menu" id="menu_section_two"><a href="#section_two">
+                        <button class="bt_menu">Enfrentar a crise</button>
+                        <div class="line_right_button"></div>
+                        <i class="fa fa-search"></i></a>
+                        <ul class="submenu" style="display: none">
+                            <li class="section_submenu"><a href="#adaptacao">Adaptar a Busca Ativa Escolar</a></li>
+                            <li class="section_submenu"><a href="#retorno">Retorno ao trabalho de campo</a></li>
+                            <li class="section_submenu"><a href="#mapeamento">Mapear a exclusão escolar</a></li>
+                            <li class="section_submenu"><a href="#dialogo">Diálogo intersetorial</a></li>
+                        </ul>
+                    </li>
+                    <li class="section_menu" id="menu_section_three"><a href="#section_three">
+                        <button class="bt_menu">Acolher e cuidar</button>
+                        <div class="line_right_button"></div>
+                        <i class="fa fa-hand-holding"></i></a></li>
+                    <li class="section_menu" id="menu_section_four"><a href="#section_four">
+                        <button class="bt_menu">Links</button>
+                        <div class="line_right_button"></div>
+                        <i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section" id="section_two">
+    <div class="row">
+        <div class="col-md-12 content_session">
+            <div class="banner_section"><img src="images/banner_enfrentar_a_crise.png" class="img-fluid" height="100%"
+                                             width="100%"></div>
+            <div class="title_icon d-flex">
+                <div class="icon_section"><img src="images/icon_enfrentar_a_crise.png"></div>
+                <div>
+                    <div class="wrap_share"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                    <div class="wrap_h3"><h3 class="simple">COMO POTENCIALIZAR A BUSCA ATIVA ESCOLAR E</h3>
+                        <h3 class="destaq"><span>ENFRENTAR A CRISE</span></h3>
+                        <div class="line_left_button"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text_volta"><p>Nesta seção destacamos como a Busca Ativa Escolar pode ser potencializada nesse
+                momento de crise para prevenir e para enfrentar a exclusão escolar. Trata-se de informações ancoradas na
+                metodologia social e na ferramenta tecnológica. Por isso, sugerimos que antes de aplicar as
+                recomendações, as equipes voltem aos manuais, guias e demais produtos, disponíveis na aba <a href="#"
+                                                                                                             target="_blank">biblioteca</a>
+                do site da estratégia, para retomarem seus principais pontos.</p>
+                <p>É importante salientar que no retorno ao atendimento presencial dos diversos serviços públicos, estes
+                    terão que realizar ações de busca ativa, visto que muitas crianças e adolescentes podem ter
+                    acentuado sua situação de vulnerabilidade devido à crise.</p>
+                <div class="quote_destaq_one"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">CLIQUE
+                    AQUI<br/><span>PARA ACESSAR</span><br/>O MODELO<br/>DE POPUPS</a></div>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header"><h5 class="modal-title" id="exampleModalLongTitle">Modal
+                                title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">...</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>O cenário atual indica a possibilidade de aumento do trabalho infantil e/ou precário para
+                    adolescentes, de casos de violências física e sexual e de intensificação de violações junto a
+                    públicos já bastante vulneráveis, como crianças e adolescentes em situação de rua, em abrigamento
+                    institucional, com deficiência, pertencentes a comunidades tradicionais e adolescentes em
+                    cumprimento de medidas socioeducativas em meio fechado.</p>
+                <p>Na educação, presume-se que os fenômenos relacionados ao abandono, à distorção idade-série (dois anos
+                    ou mais de atraso escolar), às dificuldades de aprendizagem e à evasão escolar sofrerão crescimento
+                    preocupante em suas estatísticas. Isso exige das redes de ensino um <a href="#">acompanhamento mais
+                        intenso dos estudantes já matriculados <i class="far fa-file-pdf"></i></a> , a fim de prevenir e
+                    enfrentar esse quadro. Por isso a Busca Ativa Escolar é tão estratégica nesse momento, pois conta
+                    com um <a href="#">desenho intersetorial <i class="far fa-file-pdf"></i></a> já testado e comprovado
+                    que pode atender às várias políticas públicas, além da educação. Nesse sentido, recomendamos que
+                    quando um(a) técnico(a) da educação, da assistência social ou da saúde saia a campo para fazer ações
+                    de intervenção social, já realize a busca ativa de possíveis usuários para todas as áreas, a fim de
+                    encaminhá-los para os respectivos serviços, otimizando tempo e facilitando processos.</p>
+                <div class="quote_destaq_two"><span>3.140</span><br/>Lorem ipsum<br/>dolor sit amet</div>
+                <p>Nesse sentido, recomendamos que quando um(a) técnico(a) da educação, da assistência social ou da
+                    saúde saia a campo para fazer ações de intervenção social, já realize a busca ativa de possíveis
+                    usuários para todas as áreas, a fim de encaminhá-los para os respectivos serviços, otimizando tempo
+                    e facilitando processos.</p>
+                <p>Por exemplo: identifica-se uma adolescente que evadiu da escola durante o período de isolamento e que
+                    está grávida, porém, sem fazer pré-natal ou identifica-se uma criança que evadiu da escola, parou de
+                    frequentar as ações ofertadas pelo CRAS e está trabalhando. Em ambos os casos é possível, por meio
+                    da Busca Ativa Escolar, providenciar os encaminhamentos de rede necessários e a articulação entre as
+                    diferentes <a href="#">políticas, programas e ações públicas<i class="far fa-file-pdf"></i></a> .
+                </p><h6 class="plus_more"><i class="fas fa-plus"></i> Saiba mais</h6>
+                <p><a href="" target="_blank" class="link_more"><i>Busca Ativa Escolar: o retorno do estudante à
+                    escola.</i> <i class="far fa-play-circle"></i></a></p></div>
+            <div class="box_video">
+                <div class="title"><h5>Título Vídeo Loreem ipsum</h5>
+                    <div class="border_h5"><img src="images/border_h5_blank.png" class="img-fluid"></div>
+                </div>
+                <div class="destaq_content">
+                    <iframe width="100%" height="447" src="https://www.youtube.com/embed/5AmLQ90IQ_U" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    <div class="footer_spotify blank d-flex">
+                        <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                        <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                                class="fas fa-download"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text_volta"><h4>Boletim UNICEF 2</h4>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%"
+                        height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <div class="footer_spotify d-flex">
+                    <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                    <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                            class="fas fa-download"></i></a></div>
+                </div>
+            </div>
+            <div class="subtitle" id="adaptacao"><h5>Adaptação da Busca Ativa Escolar para o retorno às aulas</h5>
+                <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+            </div>
+            <div class="text_volta">
+                <div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                <p class="read-more js-read-more" data-rm-words="60">Nesse momento de preparação ou de volta às aulas,
+                    recomendamos a revisão da estratégia para responder às necessidades impostas pela crise. Para isso é
+                    preciso que as equipes, tanto dos municípios como dos estados, adaptem seus <a href="#">Planos de
+                        Ação</a> para atender às demandas mais urgentes e prioritárias no que se referem à garantia de
+                    direitos de meninas e meninos. Nessa adaptação recomendamos as seguintes ações:</p></div>
+            <div class="subtitle" id="retorno"><h5>Retorno do trabalho de campo</h5>
+                <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+            </div>
+            <div class="text_volta">
+                <div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                <p class="read-more js-read-more" data-rm-words="40">Com a volta às aulas e o fim do isolamento, é
+                    necessário que a equipe da Busca Ativa Escolar em cada município reorganize seu trabalho de campo.
+                    Ressaltamos, contudo, que apesar da quarentena ter sido suspensa em muitos municípios, os riscos
+                    ainda permanecem, exigindo que esse trabalho seja feito seguindo-se todo o protocolo de segurança à
+                    saúde necessário.</p></div>
+            <div class="subtitle" id="mapeamento"><h5>Mapeamento dos motivos de exclusão escolar</h5>
+                <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+            </div>
+            <div class="text_volta">
+                <div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                <p class="read-more js-read-more" data-rm-words="40">Avaliar o cenário e perceber como a exclusão
+                    escolar ocorre em cada município / estado nesse momento é muito importante para orientar as ações da
+                    administração municipal / estadual de acordo com a sua realidade. Com a retomada das ações do Grupo
+                    de Campo será possível verificar:</p></div>
+            <div class="subtitle" id="dialogo"><h5>Diálogo intersetorial</h5>
+                <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+            </div>
+            <div class="text_volta">
+                <div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                <p class="read-more js-read-more" data-rm-words="40">Nesse momento é muito importante acionar o Comitê
+                    Gestor Intersetorial para que contribua na análise sobre o cenário do município / estado e nas ações
+                    prioritárias e emergenciais que precisam ser tomadas para garantir os direitos de crianças e
+                    adolescentes. Recomendamos que o plano de ação adaptado para a crise seja apresentado a esse Comitê,
+                    de antemão destacando-se para discussão:</p></div>
+            <div class="text_volta"><h4>Boletim UNICEF 2</h4>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%"
+                        height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <div class="footer_spotify d-flex">
+                    <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                    <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                            class="fas fa-download"></i></a></div>
+                </div>
+            </div>
+            <div class="text_volta"><h4>Boletim UNICEF 2</h4>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%"
+                        height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <div class="footer_spotify d-flex">
+                    <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                    <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                            class="fas fa-download"></i></a></div>
+                </div>
+            </div>
+            <div class="next_session"><a href="#section_three"><img src="images/arrow_down_blue.png"></a></div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section" id="section_three">
+    <div class="row">
+        <div class="col-md-12 content_session">
+            <div class="banner_section"><img src="images/banner_orientacoes.png" class="img-fluid" height="100%"
+                                             width="100%"></div>
+            <div class="title_icon d-flex">
+                <div class="icon_section"><img src="images/icon_acolhimento.png"></div>
+                <div>
+                    <div class="wrap_share"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                    <div class="wrap_h3"><h3 class="simple">ORIENTAÇÕES PARA O</h3>
+                        <h3 class="destaq"><span>ACOLHIMENTO E O CUIDADO</span></h3>
+                        <div class="line_left_button"></div>
+                        <h3 class="simple">DENTRO DAS ESCOLAS</h3></div>
+                </div>
+            </div>
+            <div class="text_volta"><p>Nesta seção apresentamos as recomendações para o retorno dos estudantes às
+                escolas, elaboradas pelos parceiros da Busca Ativa Escolar.</p>
+                <p>São recomendações amplas, abrangendo todos os estudantes. No entanto, reforçamos a necessidade de um
+                    olhar mais acurado para as crianças e adolescentes que foram inseridos na escola por meio da Busca
+                    Ativa Escolar, uma vez que possuem um perfil de maior vulnerabilidade e que pode ter se
+                    intensificado durante a crise.</p>
+                <p>São meninas e meninos que muitas vezes passaram um longo período fora da escola e estão em situação
+                    de distorção idade-série. Portanto, voltar para a escola foi um passo importante para eles, e, nesse
+                    momento, agregado a todas as condições impostas pela pandemia.</p></div>
+            <div class="box_video">
+                <div class="title"><h5>Título Vídeo Loreem ipsum</h5>
+                    <div class="border_h5"><img src="images/border_h5_blank.png" class="img-fluid"></div>
+                </div>
+                <div class="destaq_content">
+                    <iframe width="100%" height="447" src="https://www.youtube.com/embed/5AmLQ90IQ_U" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    <div class="footer_spotify blank d-flex">
+                        <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                        <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                                class="fas fa-download"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text_volta"><h4>Boletim UNICEF 2</h4>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/26Ds1zViMfkMZ5tfNucYBp" width="100%"
+                        height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <div class="footer_spotify d-flex">
+                    <div class="description"><i>LOREM IPSUN IN DOLOR</i></div>
+                    <div class="download"><a class="btn btn-primary" href="#" role="button">Baixar arquivo <i
+                            class="fas fa-download"></i></a></div>
+                </div>
+            </div>
+            <div class="subtitle" id="informacoes_em_saude"><h5>Informações em Saúde</h5>
+                <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+            </div>
+            <div class="text_volta">
+                <div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                <p class="read-more js-read-more" data-rm-words="60">Como afirmamos na introdução deste Guia, cada rede
+                    de educação está vivenciando ou vai vivenciar o retorno às aulas presenciais de forma distinta,
+                    porém, seguindo as determinações das administrações estaduais e/ou municipais e dos seus respectivos
+                    conselhos de educação. Ainda assim, algumas recomendações gerais podem ser úteis para colaborar
+                    nesse processo, a fim de seguir os protocolos da Organização Mundial de Saúde acerca da proteção à
+                    saúde e de mitigar as possibilidades de contágio. Algumas ações importantes para organizar esse
+                    retorno são:</p></div>
+            <div class="subtitle" id="como_conversar_com_os_estudantes"><h5>Como conversar com os estudantes sobre a
+                pandemia</h5>
+                <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+            </div>
+            <div class="text_volta">
+                <div class="wrap_share2"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                <p class="read-more js-read-more" data-rm-words="60">Com a volta às aulas e o fim do isolamento, é
+                    necessário que a equipe da Busca Ativa Escolar em cada município reorganize seu trabalho de campo.
+                    Ressaltamos, contudo, que apesar da quarentena ter sido suspensa em muitos municípios, os riscos
+                    ainda permanecem, exigindo que esse trabalho seja feito seguindo-se todo o protocolo de segurança à
+                    saúde necessário. Para isso é importante que as equipes tenham acesso, por exemplo, a álcool 70% e
+                    máscaras; que evitem qualquer tipo de contato físico com as famílias, como aperto de mão; que
+                    planejem reuniões segmentadas, a fim de evitar qualquer tipo de aglomeração, e que tomem os devidos
+                    cuidados para não colocar em risco a sua segurança e a das outras pessoas. Recomendamos as seguintes
+                    ações:</p></div>
+            <div class="box_destaq">
+                <div class="title"><h5>Deixa que eu te conto</h5>
+                    <div class="border_h5"><img src="images/border_h5.png" class="img-fluid"></div>
+                </div>
+                <div class="destaq_content"><p>Conheça o podcast diário do UNICEF para crianças e suas famílias em
+                    tempos de coronavírus:</p>
+                    <p>Deixa que Eu Conto é voltado a meninas e meninos em idade de frequentar a pré-escola e em
+                        processo de alfabetização (anos iniciais do ensino fundamental), que trazem histórias,
+                        brincadeiras e atividades.</p>
+                    <p>UNICEF convida crianças de todo o Brasil a desenhar e contar como estão se sentindo neste período
+                        de coronavírus. Conheça a campanha Sentimentos no Papel.</p>
+                    <div class="more_destaq"><h6 class="plus_more"><i class="fas fa-plus"></i> Saiba mais</h6>
+                        <p><a href="" target="_blank" class="link_more"><i>Conheça o Sistema de Garantia de Direitos da
+                            Criança e do Adolescente.</i> <i class="far fa-play-circle"></i></a></p></div>
+                </div>
+            </div>
+            <div class="next_session"><a href="#section_four"><img src="images/arrow_down_blue.png"></a></div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section" id="section_four">
+    <div class="row">
+        <div class="col-md-12 content_session">
+            <div class="banner_section"><img src="images/banner_links.png" class="img-fluid" height="100%" width="100%">
+            </div>
+            <div class="title_icon d-flex">
+                <div class="icon_section"><img src="images/icon_link.png"></div>
+                <div>
+                    <div class="wrap_share"><a href="#"><img src="images/share.png"> </a>Compartilhe</div>
+                    <div class="wrap_h3"><h3 class="destaq"><span>LINKS IMPORTANTES</span></h3>
+                        <div class="line_left_button"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text_volta"><p></p>
+                <ul class="list_links">
+                    <li><a href="#">Carta da marcha global contra o trabalho infantil frente à pandemia da covid-19.
+                        Marcha Global</a></li>
+                    <li><a href="#">Como promover educação em tempos de coronavírus. Coalização de organizações
+                        sociais</a></li>
+                    <li><a href="#">Coronavírus (Covid-19): O que você precisa saber. UNICEF</a></li>
+                    <li><a href="#">Guia: A implementação no estado. Busca Ativa Escolar</a></li>
+                    <li><a href="#">Guia: A implementação no município. Busca Ativa Escolar</a></li>
+                    <li><a href="#">Guia: Entenda a metodologia social e a ferramenta tecnológica. Busca Ativa
+                        Escolar</a></li>
+                    <li><a href="#">Recomendação aos Conselhos municipais de educação sobre a matrícula de fluxo
+                        contínuo. Uncme</a></li>
+                    <li><a href="#">Portaria 001/2020, que estabelece orientações gerais e critérios para ações das
+                        Coordenações Estaduais, Vice- Presidências e Diretorias da UNCME com referência ao
+                        acompanhamento do combate ao COVID-19. Uncme</a></li>
+                    <li><a href="#">Nota do Congemas sobre demandas urgentes para garantir assistência social nos
+                        municípios em decorrência do coronavírus (covid-19). Congemas. Conviva! – Combate ao
+                        coronavírus</a></li>
+                    <li><a href="#">Vídeo Busca Ativa Escolar: Em tempo de coronavírus</a></li>
+                    <li><a href="#">Busca Ativa Escolar em Pílulas: Recomendações para a Busca Ativa Escolar durante a
+                        covid-19</a></li>
+                    <li><a href="#">Cenário da exclusão escolar</a></li>
+                    <li><a href="#">Diretrizes para protocolo de retorno às aulas presenciais – Consed</a></li>
+                </ul>
+                <p></p></div>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
