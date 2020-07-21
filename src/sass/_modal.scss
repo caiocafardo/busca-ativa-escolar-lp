@@ -41,7 +41,7 @@ $easing: cubic-bezier(.55, 0, .1, 1);
   position: absolute;
   top: 5%;
   margin: 0 auto;
-  width: 55%;
+  width: 100%;
   max-width: 75rem;
   min-height: 20rem;
   padding: 0.5rem;
@@ -74,7 +74,7 @@ $easing: cubic-bezier(.55, 0, .1, 1);
     backface-visibility: hidden;
     transition: opacity $speed $easing;
     transition-delay: $delay;
-    padding: 20px;
+    //padding: 20px;
 
     p {
       font-size: 16px;
