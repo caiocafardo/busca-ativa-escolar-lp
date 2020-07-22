@@ -892,7 +892,7 @@ footer .footer--wrapper {
   position: absolute;
   top: 5%;
   margin: 0 auto;
-  width: 55%;
+  width: 100%;
   max-width: 75rem;
   min-height: 20rem;
   padding: 0.5rem;
@@ -917,8 +917,7 @@ footer .footer--wrapper {
     opacity: 0;
     backface-visibility: hidden;
     transition: opacity 0.9s cubic-bezier(0.55, 0, 0.1, 1);
-    transition-delay: 0.45s;
-    padding: 20px; }
+    transition-delay: 0.45s; }
     .modal .modal-content p {
       font-size: 16px;
       font-family: "Raleway", sans-serif;
@@ -998,7 +997,7 @@ footer .footer--wrapper {
     position: relative; }
     @media (max-width: 1120px) {
       .info--wrapper .info {
-        background: url('../../images/?1578512052') no-repeat;
+        background: url('../../images/?1595371606') no-repeat;
         margin: 0 auto; } }
     .info--wrapper .info .info--img-resp--container {
       display: none; }
