@@ -66,13 +66,16 @@
                 <ul>
 
                     <li>
-                        <a href="#initiative">Sobre a Iniciativa</a>
+                        <a href="#initiative">A Iniciativa</a>
                     </li>
                     <li>
                         <a href="#pass">Como Participar</a>
                     </li>
                     <li>
-                        <a href="//biblioteca.buscaativaescolar.org.br/" badge="Novo">Biblioteca</a>
+                        <a href="//buscaativaescolar.org.br/criseseemergencias/" badge="Novo">Guia</a>
+                    </li>
+                    <li>
+                        <a href="//biblioteca.buscaativaescolar.org.br/">Biblioteca</a>
                     </li>
                     <li>
                         <a href="#contact">Contato</a>
@@ -85,7 +88,9 @@
                             Plataforma</a>
                     </li>
                     <li>
-                        <a href="#course" href="#" id="bt_curso">Curso</a>
+                        <a href="#course">Curso</a>
+
+                        <!--                        <a href="#course" href="#" id="bt_curso">Curso</a>-->
                     </li>
                 </ul>
             </nav>
