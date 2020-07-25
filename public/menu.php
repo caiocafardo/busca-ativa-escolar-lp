@@ -2,10 +2,10 @@
     <ul>
 
         <li>
-            <a href="#initiative">A Iniciativa</a>
+            <a href="/#initiative">A Iniciativa</a>
         </li>
         <li>
-            <a href="#pass">Como Participar</a>
+            <a href="/#pass">Como Participar</a>
         </li>
         <li>
             <a href="//buscaativaescolar.org.br/criseseemergencias/" badge="Novo">Guia</a>
@@ -14,7 +14,7 @@
             <a href="//biblioteca.buscaativaescolar.org.br/">Biblioteca</a>
         </li>
         <li>
-            <a href="#contact">Contato</a>
+            <a href="/#contact">Contato</a>
         </li>
         <li>
             <a href="faq.php">Dúvidas</a>
@@ -24,7 +24,7 @@
                 Plataforma</a>
         </li>
         <li>
-            <a href="#course">Curso</a>
+            <a href="/#course">Curso</a>
 
             <!--                        <a href="#course" href="#" id="bt_curso">Curso</a>-->
         </li>
