@@ -59,34 +59,9 @@
                 <span></span>
             </a>
 
-            <nav id="nav">
-                <ul>
-
-                    <li>
-                        <a href="/#initiative">Sobre a Iniciativa</a>
-                    </li>
-                    <li>
-                        <a href="/#pass">Como Participar</a>
-                    </li>
-                    <li>
-                        <a href="//biblioteca.buscaativaescolar.org.br/" badge="Novo">Biblioteca</a>
-                    </li>
-                    <li>
-                        <a href="/#contact">Contato</a>
-                    </li>
-                    <li>
-                        <a href="faq.html">Dúvidas</a>
-                    </li>
-                    <li>
-                        <a id="acessar_plataforma" href="//plataforma.buscaativaescolar.org.br" target="_blank">Acessar
-                            Plataforma</a>
-                    </li>
-                    <li>
-                        <a href="/#course" href="#" id="bt_curso">Curso</a>
-                    </li>
-
-                </ul>
-            </nav>
+            <?php
+            include('menu.php');
+            ?>
 
         </div>
     </div>

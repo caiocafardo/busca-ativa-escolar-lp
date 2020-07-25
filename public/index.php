@@ -61,39 +61,9 @@
             <a href="#" class="hamburger">
                 <span></span>
             </a>
-
-            <nav id="nav">
-                <ul>
-
-                    <li>
-                        <a href="#initiative">A Iniciativa</a>
-                    </li>
-                    <li>
-                        <a href="#pass">Como Participar</a>
-                    </li>
-                    <li>
-                        <a href="//buscaativaescolar.org.br/criseseemergencias/" badge="Novo">Guia</a>
-                    </li>
-                    <li>
-                        <a href="//biblioteca.buscaativaescolar.org.br/">Biblioteca</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
-                    <li>
-                        <a href="faq.html">Dúvidas</a>
-                    </li>
-                    <li>
-                        <a id="acessar_plataforma" href="//plataforma.buscaativaescolar.org.br" target="_blank">Acessar
-                            Plataforma</a>
-                    </li>
-                    <li>
-                        <a href="#course">Curso</a>
-
-                        <!--                        <a href="#course" href="#" id="bt_curso">Curso</a>-->
-                    </li>
-                </ul>
-            </nav>
+            <?php
+                include('menu.php');
+            ?>
         </div>
     </div>
 
@@ -137,7 +107,7 @@
             e técnicos verificadores que não têm acesso a dispositivos móveis.
         </p>
 
-        <div class="buttons"><a href="info.html" class="button blue"> Quero participar!</a> <a href="municipio.html"
+        <div class="buttons"><a href="info.php" class="button blue"> Quero participar!</a> <a href="municipio.php"
                                                                                                class="button green">Veja
                 seu município</a></div>
 
@@ -223,7 +193,7 @@
             </div>
         </div>
 
-        <a href="info.html" class="button blue">
+        <a href="info.php" class="button blue">
             Quero participar!
         </a>
     </div>
@@ -291,7 +261,7 @@
             </div>
         </div>
 
-        <a href="info.html" class="button blue">
+        <a href="info.php" class="button blue">
             Quero participar!
         </a>
     </div>
