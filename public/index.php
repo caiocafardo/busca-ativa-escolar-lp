@@ -61,34 +61,9 @@
             <a href="#" class="hamburger">
                 <span></span>
             </a>
-
-            <nav id="nav">
-                <ul>
-
-                    <li>
-                        <a href="#initiative">Sobre a Iniciativa</a>
-                    </li>
-                    <li>
-                        <a href="#pass">Como Participar</a>
-                    </li>
-                    <li>
-                        <a href="//biblioteca.buscaativaescolar.org.br/" badge="Novo">Biblioteca</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
-                    <li>
-                        <a href="faq.html">Dúvidas</a>
-                    </li>
-                    <li>
-                        <a id="acessar_plataforma" href="//plataforma.buscaativaescolar.org.br" target="_blank">Acessar
-                            Plataforma</a>
-                    </li>
-                    <li>
-                        <a href="#course" href="#" id="bt_curso">Curso</a>
-                    </li>
-                </ul>
-            </nav>
+            <?php
+                include('menu.php');
+            ?>
         </div>
     </div>
 
@@ -132,7 +107,7 @@
             e técnicos verificadores que não têm acesso a dispositivos móveis.
         </p>
 
-        <div class="buttons"><a href="info.html" class="button blue"> Quero participar!</a> <a href="municipio.html"
+        <div class="buttons"><a href="info.php" class="button blue"> Quero participar!</a> <a href="municipio.php"
                                                                                                class="button green">Veja
                 seu município</a></div>
 
@@ -218,7 +193,7 @@
             </div>
         </div>
 
-        <a href="info.html" class="button blue">
+        <a href="info.php" class="button blue">
             Quero participar!
         </a>
     </div>
@@ -286,7 +261,7 @@
             </div>
         </div>
 
-        <a href="info.html" class="button blue">
+        <a href="info.php" class="button blue">
             Quero participar!
         </a>
     </div>
@@ -440,11 +415,11 @@
                 </svg>
             </a><!-- close modal -->
             <div class="modal-content">
-                <a href="https://convivaeducacao.org.br/videoconferencia" target="_blank">
-                    <img src="images/banner-lancemento-guia.jpg" style="width: 100%">
-                </a>
-            </div>
-            <!--
+<!--                <a href="https://buscaativaescolar.org.br/criseseemergencias/" target="_blank">-->
+<!--                    <img src="images/banner-lancemento-guia.jpg" style="width: 100%">-->
+<!--                </a>-->
+<!--            </div>-->
+
                         <div class="modal-content">
 
                             <h2 class="c-blue">
@@ -470,6 +445,7 @@
                                 estratégia em seu município:
                             </p>
                             <p>
+                                - Acessar o guia Busca Ativa Escolar em Crises e Emergência (<a href="criseseemergencias" target="_blank">Guia Busca Ativa Escolar</a>);<br>
 
                                 - Fazer o curso de formação online da Busca Ativa Escolar
                                 (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD
@@ -489,10 +465,12 @@
 
                                 - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
                                 (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar"
-                                    target="_blank">plantões online Busca Ativa Escolar</a>);<br> - Gerenciar o cadastro dos
-                                usuários,
-                                acrescentando novos
+                                    target="_blank">plantões online Busca Ativa Escolar</a>);<br>
+                                - Assistir às Pílulas Busca Ativa Escolar com dúvidas sobre a plataforma no canal do UNICEF
+                                Brasil no Youtube (<a href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX" target="_blank">Pílulas Busca Ativa Escolar</a>);<br>
+                                - Gerenciar o cadastro dos usuários, acrescentando novos
                                 colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.<br>
+
                             </p>
                             <p>
 
@@ -539,23 +517,15 @@
                                    target="_blank">https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus</a><br>
                             </p>
 
-                            <!--                Para mais informações sobre o Coronavírus, acesse: <br>-->
-            <!---->
-            <!--                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>-->
-            <!--                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>-->
-            <!--                -->
-            <!--                -->
-            <!--                -->
+                            <p>
+                                <br>Atenciosamente<br>
 
-            <!--                <p>-->
-            <!--                    <br>Atenciosamente<br>-->
-            <!---->
-            <!--                    Equipe Gestora Nacional da Busca Ativa Escolar-->
-            <!--                </p>-->
-            <!--            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"-->
-            <!--               class="button yellow">-->
-            <!--                Quero participar!-->
-            <!--            </a>-->
+                                Equipe Gestora Nacional da Busca Ativa Escolar
+                            </p>
+                        <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"
+                           class="button yellow">
+                            Quero participar!
+                        </a>
         </div><!-- content -->
 
 
