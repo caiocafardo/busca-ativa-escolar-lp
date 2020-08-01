@@ -917,7 +917,8 @@ footer .footer--wrapper {
     opacity: 0;
     backface-visibility: hidden;
     transition: opacity 0.9s cubic-bezier(0.55, 0, 0.1, 1);
-    transition-delay: 0.45s; }
+    transition-delay: 0.45s;
+    padding: 20px; }
     .modal .modal-content p {
       font-size: 16px;
       font-family: "Raleway", sans-serif;
@@ -997,7 +998,7 @@ footer .footer--wrapper {
     position: relative; }
     @media (max-width: 1120px) {
       .info--wrapper .info {
-        background: url('../../images/?1595371606') no-repeat;
+        background: url('../../images/?1595613350') no-repeat;
         margin: 0 auto; } }
     .info--wrapper .info .info--img-resp--container {
       display: none; }
