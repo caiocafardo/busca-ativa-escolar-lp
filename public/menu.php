@@ -8,7 +8,7 @@
             <a href="/#pass">Como Participar</a>
         </li>
         <li>
-            <a href="//buscaativaescolar.org.br/criseseemergencias/" badge="Novo">Guia</a>
+            <a href="//buscaativaescolar.org.br/criseseemergencias/">BAE em crises</a>
         </li>
         <li>
             <a href="//biblioteca.buscaativaescolar.org.br/">Biblioteca</a>
