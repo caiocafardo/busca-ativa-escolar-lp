@@ -429,103 +429,25 @@
                             <p>
                                 Olá pessoal,
                             </p>
+
+                            <p>A Busca Ativa Escolar foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o Guia Busca Ativa Escolar em crises e emergências. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. Acesse e saiba mais: <a target="_blank" href="https://buscaativaescolar.org.br/criseseemergencias"><strong>buscaativaescolar.org.br/criseseemergencias</strong></a></p>
+                            <br/>
+                            <p>Além do guia, recomenda-se outras ações que podem aprimorar ainda mais a implementação da Busca Ativa Escolar no seu município e estado: </p>
+                            <br/>
                             <p>
-                                Devido a pandemia de Coronavírus, estamos recebendo muitas dúvidas sobre o funcionamento da Busca
-                                Ativa
-                                Escolar em relação às visitas domiciliares. Todo estado e município tem um posicionamento próprio,
-                                por
-                                isso, sugerimos que cada equipe siga as decisões estabelecidas em seu município em relação ao
-                                isolamento
-                                social e teletrabalho.
+                                - Curso online autoinstrucional Busca Ativa Escolar Na Prática (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">sites.google.com/crescendojuntos.org/busca-ativa/na-pratica</a>);
+                                <br/>- Guias e manuais de orientação sobre a metodologia e a plataforma (<a href="https://biblioteca.buscaativaescolar.org.br" target="_blank">biblioteca.buscaativaescolar.org.br</a>);
+                                <br/>- Plantões online sobre dúvidas frequentes, no canal do UNICEF Brasil no Youtube (<a target="_blank" href="https://www.youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP">youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP</a>);
+                                <br/>- Busca Ativa Escolar em Pílulas, vídeos com orientações sobre a metodologia e a plataforma, no canal do UNICEF Brasil no Youtube (<a target="_blank" href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX">youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX</a>).
                             </p>
+                            <br/>
                             <p>
-                                Porém, isso não significa que o trabalho deva parar. Ao contrário, muitas ações podem ser feitas!
-                                Abaixo
-                                apresentamos algumas sugestões que podem ser executadas em casa e que colaboram para aprimorar a
-                                estratégia em seu município:
-                            </p>
-                            <p>
-                                - Acessar o guia Busca Ativa Escolar em Crises e Emergência (<a href="criseseemergencias" target="_blank">Guia Busca Ativa Escolar</a>);<br>
-
-                                - Fazer o curso de formação online da Busca Ativa Escolar
-                                (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD
-                                    Busca
-                                    Ativa Escolar na Prática!</a>);<br>
-                                - Ler os guias e manuais de
-                                orientação disponíveis no site da estratégia;<br>
-
-                                - Atualizar os dados da plataforma e inserir os alertas e os casos que foram criados e/ou
-                                gerenciados em
-                                formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou
-                                videoconferência,
-                                para
-                                discutir casos, avaliar dados e capacitar os profissionais; <br>- Criar um grupo de WhatsApp com sua
-                                equipe
-                                para facilitar a comunicação;<br>
-
-                                - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
-                                (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar"
-                                    target="_blank">plantões online Busca Ativa Escolar</a>);<br>
-                                - Assistir às Pílulas Busca Ativa Escolar com dúvidas sobre a plataforma no canal do UNICEF
-                                Brasil no Youtube (<a href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX" target="_blank">Pílulas Busca Ativa Escolar</a>);<br>
-                                - Gerenciar o cadastro dos usuários, acrescentando novos
-                                colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.<br>
-
-                            </p>
-                            <p>
-
-                                <b>Qualquer dúvida, entre em contato com os nossos canais de atendimento:</b><br>
-                                0800 729 2872 <br>
-                                (61) 98257 2931(somente Whatsapp)<br> contato@buscaativaescolar.org.br
-                            </p>
-                            <br>
-                            <h2 style="font-size: 22px; text-align: left">Para mais informações sobre o Coronavírus,
-                                acesse:</h2>
-
-
-                            <p>
-                                <b>Como proteger você e suas crianças</b><br>
-
-                                <a href="https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
-                            </p>
-                            <br>
-                            <p>
-                                <b>Oito dicas para ajudar a confortar e proteger as crianças</b><br>
-
-                                <a href="https://unicef.org/brazil/como-falar-com-criancas-sobre-coronaviru" target="_blank">https://unicef.org/brazil/como-falar-com-criancas-sobre-coronavirus</a><br>
-                            </p>
-                            <br>
-
-                            <p>
-                                <b>Orientações Conviva Educação</b><br>
-
-                                <a href="https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br>
-                            </p>
-                            <br>
-
-                            <p>
-                                <b>Mensagens e Ações para a Prevenção do Coronavírus em Escolas</b><br>
-
-                                <a href="https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas"
-                                   target="_blank">https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas</a><br>
-                            </p>
-                            <br>
-                            <p>
-                                <b>Dicas para educadores a fim de tranquilizar e proteger crianças e adolescentes</b><br>
-
-                                <a href="https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus"
-                                   target="_blank">https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus</a><br>
+                            Qualquer dúvida, entre em contato com os nossos canais de atendimento:<br/>
+                            0800 729 2872<br/>
+                            (61) 98257 2931 (somente WhatsApp)<br/>
+                            contato@buscaativaescolar.org.br
                             </p>
 
-                            <p>
-                                <br>Atenciosamente<br>
-
-                                Equipe Gestora Nacional da Busca Ativa Escolar
-                            </p>
-                        <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"
-                           class="button yellow">
-                            Quero participar!
-                        </a>
         </div><!-- content -->
 
 
