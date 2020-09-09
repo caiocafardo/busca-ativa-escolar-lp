@@ -423,29 +423,34 @@
                         <div class="modal-content">
 
                             <h2 class="c-blue">
-                                <img src="../../images/logo-busca-ativa-escolar.png"><br>
-                                <div style="font-size: 20px">em tempo de Coronavírus</div>
+                                <img src="../../images/logo-busca-ativa-escolar.png"><br><br>
+                                <div style="font-size: 20px">Destaques</div>
                             </h2>
-                            <p>
-                                Olá pessoal,
-                            </p>
 
-                            <p>A Busca Ativa Escolar foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o Guia Busca Ativa Escolar em crises e emergências. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. Acesse e saiba mais: <a target="_blank" href="https://buscaativaescolar.org.br/criseseemergencias"><strong>buscaativaescolar.org.br/criseseemergencias</strong></a></p>
+                            <p><b>A Busca Ativa Escolar foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o <a>Guia Busca Ativa Escolar em crises e emergências</a>. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. <a target="_blank" href="https://buscaativaescolar.org.br/criseseemergencias">Clique aqui e saiba mais.</a></b></p>
                             <br/>
-                            <p>Além do guia, recomenda-se outras ações que podem aprimorar ainda mais a implementação da Busca Ativa Escolar no seu município e estado: </p>
+                            <p><b>Outro material importante é o <a>Guia de para uso da funcionalidade de acompanhamento de frequência escolar</a>, que colabora para que os(as) gestores(as) possam acompanhar a situação das redes municipais e estaduais e tomar decisões rápidas a fim de prevenir o abandono escolar. <a target="_blank" href="https://biblioteca.buscaativaescolar.org.br/material/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar">Clique aqui e saiba mais.</a></b></p>
                             <br/>
                             <p>
-                                - Curso online autoinstrucional Busca Ativa Escolar Na Prática (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">sites.google.com/crescendojuntos.org/busca-ativa/na-pratica</a>);
-                                <br/>- Guias e manuais de orientação sobre a metodologia e a plataforma (<a href="https://biblioteca.buscaativaescolar.org.br" target="_blank">biblioteca.buscaativaescolar.org.br</a>);
-                                <br/>- Plantões online sobre dúvidas frequentes, no canal do UNICEF Brasil no Youtube (<a target="_blank" href="https://www.youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP">youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP</a>);
-                                <br/>- Busca Ativa Escolar em Pílulas, vídeos com orientações sobre a metodologia e a plataforma, no canal do UNICEF Brasil no Youtube (<a target="_blank" href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX">youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX</a>).
+                                <b>Recomenda-se ainda outras ações que podem aprimorar ainda mais a implementação da Busca Ativa Escolar no seu município e estado:</b><br>
+                                 <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">- Curso online autoinstrucional Busca Ativa Escolar Na Prática</a>;<br>
+                                <a href="https://biblioteca.buscaativaescolar.org.br" target="_blank">- Guias e manuais de orientação sobre a metodologia e a plataforma</a>;<br>
+                                <a href="https://www.youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP" target="_blank">- Plantões online sobre dúvidas frequentes, no canal do UNICEF Brasil no Youtube</a><br>
+                                <a href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX">- Busca Ativa Escolar em Pílulas, vídeos com orientações sobre a metodologia e a plataforma, no canal do UNICEF Brasil no Youtube </a> <br>
+
                             </p>
-                            <br/>
                             <p>
+
+                                <br>
                             Qualquer dúvida, entre em contato com os nossos canais de atendimento:<br/>
                             0800 729 2872<br/>
                             (61) 98257 2931 (somente WhatsApp)<br/>
                             contato@buscaativaescolar.org.br
+                            </p>
+                            <br>
+                            <p>
+                                Atenciosamente,<br>
+                                Equipe Gestora Nacional da Busca Ativa Escolar
                             </p>
 
         </div><!-- content -->

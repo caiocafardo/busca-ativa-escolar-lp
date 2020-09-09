@@ -1,12 +1,22 @@
 <nav id="nav">
     <ul>
 
-        <li>
-            <a href="/#initiative">A Iniciativa</a>
+<!--        <li class="dropdown">-->
+<!--               Dropdown-->
+<!--               -->
+<!--        </li>-->
+
+        <li class="dropdown">
+            <a>Conheça a Estratégia</a>
+            <div class="dropdown-content">
+                <a href="/#initiative">A Iniciativa</a>
+                <a href="/#pass">Como Participar</a>
+                <a href="faq.php">Dúvidas</a>
+            </div>
         </li>
-        <li>
-            <a href="/#pass">Como Participar</a>
-        </li>
+<!--        <li>-->
+<!--            <a href="//buscaativaescolar.org.br/campanha">Campanha</a>-->
+<!--        </li>-->
         <li>
             <a href="//buscaativaescolar.org.br/criseseemergencias/">BAE em crises</a>
         </li>
@@ -15,9 +25,6 @@
         </li>
         <li>
             <a href="/#contact">Contato</a>
-        </li>
-        <li>
-            <a href="faq.php">Dúvidas</a>
         </li>
         <li>
             <a id="acessar_plataforma" href="//plataforma.buscaativaescolar.org.br" target="_blank">Acessar
