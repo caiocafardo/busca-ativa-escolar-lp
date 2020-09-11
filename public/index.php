@@ -424,7 +424,7 @@
 
                             <h2 class="c-blue">
                                 <img src="../../images/logo-busca-ativa-escolar.png"><br><br>
-                                <div style="font-size: 20px">Destaques</div>
+                                <div style="font-size: 28px">Destaques</div>
                             </h2>
 
                             <p><b>A Busca Ativa Escolar foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o <a>Guia Busca Ativa Escolar em crises e emergências</a>. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. <a target="_blank" href="https://buscaativaescolar.org.br/criseseemergencias">Clique aqui e saiba mais.</a></b></p>
@@ -433,10 +433,10 @@
                             <br/>
                             <p>
                                 <b>Recomenda-se ainda outras ações que podem aprimorar ainda mais a implementação da Busca Ativa Escolar no seu município e estado:</b><br>
-                                 <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">- Curso online autoinstrucional Busca Ativa Escolar Na Prática</a>;<br>
-                                <a href="https://biblioteca.buscaativaescolar.org.br" target="_blank">- Guias e manuais de orientação sobre a metodologia e a plataforma</a>;<br>
-                                <a href="https://www.youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP" target="_blank">- Plantões online sobre dúvidas frequentes, no canal do UNICEF Brasil no Youtube</a><br>
-                                <a href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX">- Busca Ativa Escolar em Pílulas, vídeos com orientações sobre a metodologia e a plataforma, no canal do UNICEF Brasil no Youtube </a> <br>
+                                 <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">- Curso online autoinstrucional Busca Ativa Escolar Na Prática</a>.<br>
+                                <a href="https://biblioteca.buscaativaescolar.org.br" target="_blank">- Guias e manuais de orientação sobre a metodologia e a plataforma</a>.<br>
+                                <a href="https://www.youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP" target="_blank">- Plantões online sobre dúvidas frequentes, no canal do UNICEF Brasil no Youtube</a>.<br>
+                                <a href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX">- Busca Ativa Escolar em Pílulas, vídeos com orientações sobre a metodologia e a plataforma, no canal do UNICEF Brasil no Youtube</a>.<br>
 
                             </p>
                             <p>
