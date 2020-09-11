@@ -14,9 +14,9 @@
                 <a href="faq.php">Dúvidas</a>
             </div>
         </li>
-<!--        <li>-->
-<!--            <a href="//buscaativaescolar.org.br/campanha">Campanha</a>-->
-<!--        </li>-->
+        <li>
+            <a href="campanha">Campanha</a>
+        </li>
         <li>
             <a href="//buscaativaescolar.org.br/criseseemergencias/">BAE em crises</a>
         </li>
