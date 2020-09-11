@@ -11542,24 +11542,15 @@ $("#estados").on("change", function () {
 
 var elements = $('.modal-overlay, .modal');
 
-
 setTimeout(function () {
     elements.addClass('active');
 }, 100);
 
-
-$('.close-modal').click(function () {
-    elements.removeClass('active');
+$(".modal-overlay").click(function () {
     elements.removeClass('modal');
+    elements.removeClass('active');
     elements.removeClass('modal-overlay');
-});
-
-$("div").mouseleave(function(){
-    $('body').click(function(){
-        elements.removeClass('active');
-        elements.removeClass('modal');
-        elements.removeClass('modal-overlay');
-    });
+    elements.empty();
 });
 
 tippy('[data-tippy-content]',{

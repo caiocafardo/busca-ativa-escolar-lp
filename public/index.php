@@ -61,34 +61,9 @@
             <a href="#" class="hamburger">
                 <span></span>
             </a>
-
-            <nav id="nav">
-                <ul>
-
-                    <li>
-                        <a href="#initiative">Sobre a Iniciativa</a>
-                    </li>
-                    <li>
-                        <a href="#pass">Como Participar</a>
-                    </li>
-                    <li>
-                        <a href="#down">Baixe os Materiais</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
-                    <li>
-                        <a href="faq.html">Dúvidas</a>
-                    </li>
-                    <li>
-                        <a id="acessar_plataforma" href="//plataforma.buscaativaescolar.org.br" target="_blank">Acessar
-                            Plataforma</a>
-                    </li>
-                    <li>
-                        <a href="#course" href="#" id="bt_curso">Curso</a>
-                    </li>
-                </ul>
-            </nav>
+            <?php
+                include('menu.php');
+            ?>
         </div>
     </div>
 
@@ -132,7 +107,7 @@
             e técnicos verificadores que não têm acesso a dispositivos móveis.
         </p>
 
-        <div class="buttons"><a href="info.html" class="button blue"> Quero participar!</a> <a href="municipio.html"
+        <div class="buttons"><a href="info.php" class="button blue"> Quero participar!</a> <a href="municipio.php"
                                                                                                class="button green">Veja
                 seu município</a></div>
 
@@ -218,7 +193,7 @@
             </div>
         </div>
 
-        <a href="info.html" class="button blue">
+        <a href="info.php" class="button blue">
             Quero participar!
         </a>
     </div>
@@ -286,7 +261,7 @@
             </div>
         </div>
 
-        <a href="info.html" class="button blue">
+        <a href="info.php" class="button blue">
             Quero participar!
         </a>
     </div>
@@ -346,611 +321,6 @@
     <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank" class="button blue">
         Quero participar
     </a>
-</section>
-
-<section id="down">
-    <div class="down--wrapper">
-        <h2 class="c-blue">
-            Baixe os materiais
-        </h2>
-
-        <p class="down--subtitle">
-            Aqui você encontra os guias de consulta da <strong>Busca Ativa Escolar</strong>. Eles servem de referência
-            para orientar e tirar suas dúvidas durante o processo de implementação no município.
-        </p>
-
-        <div class="bam--section">
-            <h3>
-                Guias e Manuais
-            </h3>
-
-            <div class="down--topics--row">
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/guia-metodologia-social-e-a-ferramenta-tecnologica.pdf"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/guias-e-manuais/guia-metodologia-social-e-a-ferramenta-tecnologica.jpg"
-                             alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/guia-metodologia-social-e-a-ferramenta-tecnologica.pdf"
-                           target="_blank">
-                            Guia: Metodologia Social e a Ferramenta Tecnológica
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/guia-a-implementacao-do-municipio.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/guia-a-implementacao-do-municipio.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/guia-a-implementacao-do-municipio.pdf" target="_blank">
-                            Guia: A Implementação no Município
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/manual-dos-administradores.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/manual-dos-administradores.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/manual-dos-administradores.pdf" target="_blank">
-                            Manual dos Administradores
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/manual-do-sistema.pdf" class="img-hover" target="_blank">
-                        <img src="images/downloads/guias-e-manuais/manual-do-sistema.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/manual-do-sistema.pdf" target="_blank">
-                            Manual do Sistema
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/manual-educacenso-mar-2019.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/manual-educacenso.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/manual-educacenso-mar-2019.pdf" target="_blank">
-                            Manual Educacenso
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/manual-do-tecnico-verificador.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/manual-do-tecnico-verificador.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/manual-do-tecnico-verificador.pdf" target="_blank">
-                            Manual do Técnico Verificador
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/manual-do-agente-comunitario.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/manual-do-agente-comunitario.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/manual-do-agente-comunitario.pdf" target="_blank">
-                            Manual do Agente Comunitário
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/cartilha-sms.pdf" class="img-hover" target="_blank">
-                        <img src="images/downloads/guias-e-manuais/cartilha-sms.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/cartilha-sms.pdf" target="_blank">
-                            Orientações para uso do SMS
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/busca-ativa-escolar-v10-web.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/busca-ativa-escolar-v10-web.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/busca-ativa-escolar-v10-web.pdf" target="_blank">
-                            Cenário da Exclusão Escolar
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/manual-dos-administradores-estaduais_web.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/manual-dos-administradores-estaduais.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/manual-dos-administradores-estaduais_web.pdf"
-                           target="_blank">
-                            Manual dos Administradores Estaduais
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/guias-e-manuais/guia-a-implementacao-no-estado_web.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/guias-e-manuais/implementacao-no-estado.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/guias-e-manuais/guia-a-implementacao-no-estado_web.pdf" target="_blank">
-                            Guia: Implementação no Estado
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/logo_fora_da_escola_nao_pode.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/fora_da_escola_nao_pode.jpg"
-                             alt="Logo: Fora da Escola Não Pode"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/logo_fora_da_escola_nao_pode.zip" target="_blank">
-                            Logo Fora da Escola Não Pode!
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/manual_ de_identidade_fora_da_escola_nao_pode_baixa_resolucao.pdf"
-                       class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/manual_marca_fora_da_escola_nao_pode.jpg"
-                             alt="Manual da marca: Fora da Escola Não Pode"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/manual_ de_identidade_fora_da_escola_nao_pode_baixa_resolucao.pdf"
-                           target="_blank">
-                            Manual da marca: Fora da Escola Não Pode!
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/logo_na_escola_sem_aprender_tambem_nao_pode.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/na_escola_sem_aprender_tambem_nao_pode.jpg"
-                             alt="Logo: Fora da Escola Não Pode"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/logo_fora_da_escola_nao_pode.zip" target="_blank">
-                            Logo Na Escola Sem Aprender Também Não Pode!
-                        </a>
-                    </h5>
-                </div>
-
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/logo_busca_ativa_escolar_2.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/busca_ativa_escolar_2.jpg"
-                             alt="imagem Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/logo_busca_ativa_escolar.zip" target="_blank">
-                            imagem Busca Ativa Escolar
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/logo-manual-undime.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/logo-undime-material.jpg"
-                             alt="imagem Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/logo-manual-undime.zip" target="_blank">
-                            Logo e Manual da marca: Undime
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/logo-congemas.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/logo-congemas.jpg" alt="imagem Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/logo-congemas.zip" target="_blank">
-                            Logo Congemas
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/logo-manual-conasems.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/logo-conasems.jpg" alt="imagem Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/logo-manual-conasems.zip" target="_blank">
-                            Logo e Manual da marca: Conasems
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais/logo-manual-unicef.zip" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais/logo-unicef.jpg" alt="imagem Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais/logo-manual-unicef.zip" target="_blank">
-                            Logo e Manual da marca: UNICEF
-                        </a>
-                    </h5>
-                </div>
-
-                <!--                <div class="down--topics--col">-->
-                <!--                    <a href="downloads/materiais/legislacao.zip" class="img-hover"-->
-                <!--                       target="_blank">-->
-                <!--                        <img src="images/downloads/materiais/legislacao.jpg" alt="imagem Busca Ativa Escolar"/>-->
-                <!--                    </a>-->
-                <!---->
-                <!--                    <h5>-->
-                <!--                        <a href="downloads/materiais/legislacao.zip" target="_blank">-->
-                <!--                            Legislação-->
-                <!--                        </a>-->
-                <!--                    </h5>-->
-                <!--                </div>-->
-            </div>
-
-            <div class="down--topics--row">
-                <div class="down-manual">
-                    <p class="down--subtitle">
-                        <strong>
-                            Clique nos títulos abaixo para acessar os formulários para uso offline da estratégia
-                        </strong>
-                    </p>
-
-                    <ul>
-                        <li>
-                            <a href="downloads/guias-e-manuais/formulario-alerta3.pdf" target="_blank">
-                                • Formulário de Alerta
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="downloads/guias-e-manuais/formulario-de-pesquisa3.pdf" target="_blank">
-                                • Formulário de Pesquisa
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="downloads/guias-e-manuais/formulario-de-analise-tecnica3.pdf" target="_blank">
-                                • Formulário da Análise Técnica
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="downloads/guias-e-manuais/formulario-da-gestao-de-caso3.pdf" target="_blank">
-                                • Formulário da Gestão de Caso
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="downloads/guias-e-manuais/formulario-da-rematricula3.pdf" target="_blank">
-                                • Formulário da (Re)matrícula
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="downloads/guias-e-manuais/formulario-das-observacores3.pdf" target="_blank">
-                                • Formulário das Observações
-                            </a>
-                        </li>
-                        <li>
-                            <a href="downloads/guias-e-manuais/formulario-para-cadastro-de-usuário.pdf" target="_blank">
-                                • Formulário para Cadastro de Usuários
-                            </a>
-                        </li>
-                        <li>
-                            <a href="downloads/guias-e-manuais/termos-de-uso-e-politica-de-privacidade.pdf"
-                               target="_blank">
-                                • Termos de Uso e Politica de Privacidade
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="bam--section">
-            <h3>
-                Materiais de Formação
-            </h3>
-
-            <div class="down--topics--row">
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/1-encontro-de-formacao-mobilizacao-intersetorial.pdf"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/1-encontro-de-formacao-mobilizacao-intersetorial-pdf.jpg"
-                             alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/1-encontro-de-formacao-mobilizacao-intersetorial.pdf"
-                           target="_blank">
-                            1º Encontro de Formação - Mobilização Intersetorial
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/1-encontro-de-formacao-mobilizacao-intersetorial.pptx"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/1-encontro-de-formacao-mobilizacao-intersetorial.jpg"
-                             alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/1-encontro-de-formacao-mobilizacao-intersetorial.pptx"
-                           target="_blank">
-                            1º Encontro de Formação - Mobilização Intersetorial (PPT)
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/2-encontro-de-formacao-geral.pdf" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/2-encontro-de-formacao-geral-pdf.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/2-encontro-de-formacao-geral.pdf" target="_blank">
-                            2º Encontro de Formação - Geral
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/2-encontro-de-formacao-geral.pptx" class="img-hover"
-                       target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/2-encontro-de-formacao-geral.jpg" alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/2-encontro-de-formacao-geral.pptx" target="_blank">
-                            2º Encontro de Formação - Geral (PPT)
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/3-encontro-de-formação-especifica-para-supervisores-institucionais.pdf"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/3-encontro-de-formação-especifica-para-supervisores-institucionais-pdf.jpg"
-                             alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/3-encontro-de-formação-especifica-para-supervisores-institucionais.pdf"
-                           target="_blank">
-                            3º Encontro de Formação - Específica para Supervisores Institucionais
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/3-encontro-de-formação-especifica-para-supervisores-institucionais.pptx"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/3-encontro-de-formação-especifica-para-supervisores-institucionais.jpg"
-                             alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/3-encontro-de-formação-especifica-para-supervisores-institucionais.pptx"
-                           target="_blank">
-                            3º Encontro de Formação - Específica para Supervisores Institucionais (PPT)
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/4-encontro-de-formação-especifica-para-tecnicos-verificadores-e-agentes-comunitarios.pdf"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/4-encontro-de-formação-especifica-para-tecnicos-verificadores-e-agentes-comunitarios-pdf.jpg"
-                             alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/4-encontro-de-formação-especifica-para-tecnicos-verificadores-e-agentes-comunitarios.pdf"
-                           target="_blank">
-                            4º Encontro de Formação - Específica para Técnicos Verificadores e Agentes Comunitários
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="downloads/materiais-de-formacao/4-encontro-de-formação-especifica-para-tecnicos-verificadores-e-agentes-comunitarios.pptx"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/materiais-de-formacao/4-encontro-de-formação-especifica-para-tecnicos-verificadores-e-agentes-comunitarios.jpg"
-                             alt=""/>
-                    </a>
-
-                    <h5>
-                        <a href="downloads/materiais-de-formacao/4-encontro-de-formação-especifica-para-tecnicos-verificadores-e-agentes-comunitarios.pptx"
-                           target="_blank">
-                            4º Encontro de Formação - Específica para Técnicos Verificadores e Agentes Comunitários
-                            (PPT)
-                        </a>
-                    </h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="bam--section">
-            <h3>
-                Vídeos
-            </h3>
-
-            <div class="down--topics--row">
-                <div class="down--topics--col">
-                    <a href="https://www.youtube.com/watch?v=_4FLhhPuP5Y&list=PLg5IhsOl5bLUxtiB2lJBp0ZJ2uuSH8zuf"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/videos/participe-da-busca-ativa-escolar.jpg"
-                             alt="Participe da Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="https://www.youtube.com/watch?v=_4FLhhPuP5Y&list=PLg5IhsOl5bLUxtiB2lJBp0ZJ2uuSH8zuf"
-                           target="_blank">
-                            Participe da Busca Ativa Escolar
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="https://www.youtube.com/watch?v=uhOxs2NGJE0&list=PLg5IhsOl5bLUxtiB2lJBp0ZJ2uuSH8zuf&index=2"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/videos/unicef-busca-ativa-escolar-video-animacao.jpg"
-                             alt="Apresentação da Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="https://www.youtube.com/watch?v=uhOxs2NGJE0&list=PLg5IhsOl5bLUxtiB2lJBp0ZJ2uuSH8zuf&index=2"
-                           target="_blank">
-                            Apresentação da Busca Ativa Escolar
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="https://www.youtube.com/watch?v=yK3fX9lJFOM&feature=youtu.be"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/videos/o-que-e-a-busca-ativa-escolar.jpg"
-                             alt="O que é a Busca Ativa Escolar"/>
-                    </a>
-
-                    <h5>
-                        <a href="https://www.youtube.com/watch?v=yK3fX9lJFOM&feature=youtu.be"
-                           target="_blank">
-                            O que é a Busca Ativa Escolar
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="https://www.youtube.com/watch?v=2MPX7ipeKZ4&index=4&list=PLg5IhsOl5bLUxtiB2lJBp0ZJ2uuSH8zuf"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/videos/busca-ativa-escolar-agentes-comunitarios.jpg"
-                             alt="Orienta&ccedil;&otilde;es aos Agentes Comunit&aacute;rios"/>
-                    </a>
-
-                    <h5>
-                        <a href="https://www.youtube.com/watch?v=2MPX7ipeKZ4&index=4&list=PLg5IhsOl5bLUxtiB2lJBp0ZJ2uuSH8zuf"
-                           target="_blank">
-                            Orienta&ccedil;&otilde;es aos Agentes Comunit&aacute;rios
-                        </a>
-                    </h5>
-                </div>
-
-                <div class="down--topics--col">
-                    <a href="https://www.youtube.com/watch?v=tTezy0ooz5s"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/videos/estudo_de_caso_sao_bernardo_campo.jpg"
-                             alt="Estudo de caso: São Bernardo do Campo (SP) | UNICEF Brasil"/>
-                    </a>
-
-                    <h5>
-                        <a href="https://www.youtube.com/watch?v=tTezy0ooz5s"
-                           target="_blank">
-                            Estudo de caso: São Bernardo do Campo (SP) | UNICEF Brasil
-                        </a>
-                    </h5>
-                </div>
-                <div class="down--topics--col">
-                    <a href="https://www.youtube.com/watch?v=PbXElz5Buwg"
-                       class="img-hover" target="_blank">
-                        <img src="images/downloads/videos/joao_camara.png"
-                             alt="EBusca Ativa Escolar em João Câmara (RN)"/>
-                    </a>
-
-                    <h5>
-                        <a href="https://www.youtube.com/watch?v=PbXElz5Buwg"
-                           target="_blank">
-                            Busca Ativa Escolar em João Câmara (RN)
-                        </a>
-                    </h5>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="bam--section">
-            <div class="down--topics--row">
-                <div class="down-manual">
-
-                    <h3>
-                        Legislação
-                    </h3>
-                    <ul>
-                        <?php
-                        $links = (object)[
-                            ['nome' => 'Lei de Diretrizes e Bases da Educação', 'link' => 'http://www.planalto.gov.br/ccivil_03/leis/l9394.htm'],
-                            ['nome' => 'Plano Nacional de Educação', 'link' => 'http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13005.htm'],
-                            ['nome' => 'Recomendação UNCME sobre matrícula de fluxo contínuo', 'link' => 'http://www.uncme.org.br/Gerenciador/arquivos/d262f7810f21c1fcb3c749fc485e3a90.pdf']
-                        ];
-                        foreach ($links as $key => $value) {
-                            ?>
-                            <li>
-                                <a href="<?php echo $value['link'] ?>" target="_blank">
-                                    <?php echo $value['nome'] ?>
-                                </a>
-                            </li>
-
-                            <?php
-                        }
-
-                        ?>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
 </section>
 
 <section id="contact" class="no-pad grey">
@@ -1034,124 +404,61 @@
         </a>
     </div>
 </footer>
+<div class="pop-up">
+    <div class="modal-overlay">
+        <div class="modal active">
 
-<div class="modal-overlay">
-    <div class="modal active">
+            <a class="close-modal">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#ffffff"
+                          d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                </svg>
+            </a><!-- close modal -->
+            <div class="modal-content">
+<!--                <a href="https://buscaativaescolar.org.br/criseseemergencias/" target="_blank">-->
+<!--                    <img src="images/banner-lancemento-guia.jpg" style="width: 100%">-->
+<!--                </a>-->
+<!--            </div>-->
 
-        <a class="close-modal">
-            <svg viewBox="0 0 20 20">
-                <path fill="#ffffff"
-                      d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
-            </svg>
-        </a><!-- close modal -->
+                        <div class="modal-content">
 
-        <div class="modal-content">
+                            <h2 class="c-blue">
+                                <img src="../../images/logo-busca-ativa-escolar.png"><br><br>
+                                <div style="font-size: 28px">Destaques</div>
+                            </h2>
 
-            <h2 class="c-blue">
-                <img src="../../images/logo-busca-ativa-escolar.png"><br>
-                <div style="font-size: 20px">em tempo de Coronavírus</div>
-            </h2>
-            <p>
-                Olá pessoal,
-            </p>
-            <p>
-                Devido a pandemia de Coronavírus, estamos recebendo muitas dúvidas sobre o funcionamento da Busca Ativa
-                Escolar em relação às visitas domiciliares. Todo estado e município tem um posicionamento próprio, por
-                isso, sugerimos que cada equipe siga as decisões estabelecidas em seu município em relação ao isolamento
-                social e teletrabalho.
-            </p>
-            <p>
-                Porém, isso não significa que o trabalho deva parar. Ao contrário, muitas ações podem ser feitas! Abaixo
-                apresentamos algumas sugestões que podem ser executadas em casa e que colaboram para aprimorar a
-                estratégia em seu município:
-            </p>
-            <p>
+                            <p><b>A Busca Ativa Escolar foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o <a>Guia Busca Ativa Escolar em crises e emergências</a>. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. <a target="_blank" href="https://buscaativaescolar.org.br/criseseemergencias">Clique aqui e saiba mais.</a></b></p>
+                            <br/>
+                            <p><b>Outro material importante é o <a>Guia de para uso da funcionalidade de acompanhamento de frequência escolar</a>, que colabora para que os(as) gestores(as) possam acompanhar a situação das redes municipais e estaduais e tomar decisões rápidas a fim de prevenir o abandono escolar. <a target="_blank" href="https://biblioteca.buscaativaescolar.org.br/material/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar">Clique aqui e saiba mais.</a></b></p>
+                            <br/>
+                            <p>
+                                <b>Recomenda-se ainda outras ações que podem aprimorar ainda mais a implementação da Busca Ativa Escolar no seu município e estado:</b><br>
+                                 <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">- Curso online autoinstrucional Busca Ativa Escolar Na Prática</a>.<br>
+                                <a href="https://biblioteca.buscaativaescolar.org.br" target="_blank">- Guias e manuais de orientação sobre a metodologia e a plataforma</a>.<br>
+                                <a href="https://www.youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP" target="_blank">- Plantões online sobre dúvidas frequentes, no canal do UNICEF Brasil no Youtube</a>.<br>
+                                <a href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX">- Busca Ativa Escolar em Pílulas, vídeos com orientações sobre a metodologia e a plataforma, no canal do UNICEF Brasil no Youtube</a>.<br>
 
-                - Fazer o curso de formação online da Busca Ativa Escolar
-                (<a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">EAD Busca
-                    Ativa Escolar na Prática!</a>);<br>
-                - Ler os guias e manuais de
-                orientação disponíveis no site da estratégia;<br>
+                            </p>
+                            <p>
 
-                - Atualizar os dados da plataforma e inserir os alertas e os casos que foram criados e/ou gerenciados em
-                formulários impressos; <br>- Fazer reuniões a distância com a equipe, por telefone ou videoconferência,
-                para
-                discutir casos, avaliar dados e capacitar os profissionais; <br>- Criar um grupo de WhatsApp com sua
-                equipe
-                para facilitar a comunicação;<br>
+                                <br>
+                            Qualquer dúvida, entre em contato com os nossos canais de atendimento:<br/>
+                            0800 729 2872<br/>
+                            (61) 98257 2931 (somente WhatsApp)<br/>
+                            contato@buscaativaescolar.org.br
+                            </p>
+                            <br>
+                            <p>
+                                Atenciosamente,<br>
+                                Equipe Gestora Nacional da Busca Ativa Escolar
+                            </p>
 
-                - Assistir aos plantões online sobre dúvidas frequentes no canal do UNICEF Brasil no Youtube
-                (<a href="https://www.youtube.com/results?search_query=plant%C3%A3o+busca+ativa+escolar"
-                    target="_blank">plantões online Busca Ativa Escolar</a>);<br> - Gerenciar o cadastro dos usuários,
-                acrescentando novos
-                colaboradores, removendo os que não fazem mais parte da equipe, corrigindo inconsistências etc.<br>
-            </p>
-            <p>
-
-                <b>Qualquer dúvida, entre em contato com os nossos canais de atendimento:</b><br>
-                0800 729 2872 <br>
-                (61) 98257 2931(somente Whatsapp)<br> contato@buscaativaescolar.org.br
-            </p>
-            <br>
-            <h2 style="font-size: 22px; text-align: left">Para mais informações sobre o Coronavírus,
-                acesse:</h2>
-
-
-            <p>
-                <b>Como proteger você e suas crianças</b><br>
-
-                <a href="https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>
-            </p>
-            <br>
-            <p>
-                <b>Oito dicas para ajudar a confortar e proteger as crianças</b><br>
-
-                <a href="https://unicef.org/brazil/como-falar-com-criancas-sobre-coronaviru" target="_blank">https://unicef.org/brazil/como-falar-com-criancas-sobre-coronavirus</a><br>
-            </p>
-            <br>
-
-            <p>
-                <b>Orientações Conviva Educação</b><br>
-
-                <a href="https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br>
-            </p>
-            <br>
-
-            <p>
-                <b>Mensagens e Ações para a Prevenção do Coronavírus em Escolas</b><br>
-
-                <a href="https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas"
-                   target="_blank">https://unicef.org/brazil/relatorios/principais-mensagens-e-acoes-para-prevencao-do-coronavirus-em-escolas</a><br>
-            </p>
-            <br>
-            <p>
-                <b>Dicas para educadores a fim de tranquilizar e proteger crianças e adolescentes</b><br>
-
-                <a href="https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus"
-                   target="_blank">https://unicef.org/brazil/historias/como-educadores-podem-falar-sobre-coronavirus</a><br>
-            </p>
-
-            <!--                Para mais informações sobre o Coronavírus, acesse: <br>-->
-            <!---->
-            <!--                <a href="https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber" target="_blank">https://www.unicef.org/brazil/coronavirus-o-que-os-pais-precisam-saber</a><br>-->
-            <!--                <a href="https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437" target="_blank">https://www.convivaeducacao.org.br/fique_atento?filter%5Btag%5D=437</a><br><br>-->
-            <!--                -->
-            <!--                -->
-            <!--                -->
-
-            <p>
-                <br>Atenciosamente<br>
-
-                Equipe Gestora Nacional da Busca Ativa Escolar
-            </p>
-            <!--            <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank"-->
-            <!--               class="button yellow">-->
-            <!--                Quero participar!-->
-            <!--            </a>-->
         </div><!-- content -->
+
 
     </div><!-- modal -->
 </div><!-- overlay -->
+</div>
 <script>
     function formSubmitSend() {
         var val = JSON.parse(localStorage.getItem('track') || '[]');
