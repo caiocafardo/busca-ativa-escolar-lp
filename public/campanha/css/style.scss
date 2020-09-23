@@ -5,6 +5,20 @@ $cinza: #d8d1c9;
 $cinza-escuro: #4f4f4f;
 $amarelo: #eecb3d;
 //
+.famigerado_banner_desktop{
+	display: block;
+}
+.famigerado_banner_mobile{
+	display: none;
+}
+@media only screen and (max-width: 700px) {
+	.famigerado_banner_desktop{
+		display: none;
+	}
+	.famigerado_banner_mobile{
+		display: block;
+	}
+}
 .famigerado_colunas_texto1{
 	max-width: 250px;
 	margin: 0 60px 0 0;
@@ -16,6 +30,7 @@ $amarelo: #eecb3d;
 	font-weight: bold;
 	cursor: pointer;
 	position: relative;
+	margin-bottom: 40px;
 }
 .famigerado_colunas_texto1_borda{
 	width: 60px;
@@ -37,6 +52,7 @@ $amarelo: #eecb3d;
 	font-weight: bold;
 	cursor: pointer;
 	position: relative;
+	margin-bottom: 40px;
 }
 .famigerado_colunas_texto2_borda{
 	width: 60px;
@@ -147,4 +163,13 @@ $amarelo: #eecb3d;
 	background-color: $cinza-escuro !important;
 	color: $branco !important;
 	border-radius: 0px !important;
+}
+#nav > ul > li.dropdown > div > a:nth-child(1):hover{
+	color: $azul;
+}
+#nav > ul > li.dropdown > div > a:nth-child(2):hover{
+	color: $azul;
+}
+#nav > ul > li.dropdown > div > a:nth-child(3):hover{
+	color: $azul;
 }
