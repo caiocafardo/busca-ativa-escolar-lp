@@ -14,11 +14,11 @@
                 <a href="faq.php">Dúvidas</a>
             </div>
         </li>
-<!--        <li>-->
-<!--            <a href="//buscaativaescolar.org.br/campanha">Campanha</a>-->
-<!--        </li>-->
         <li>
-            <a href="//buscaativaescolar.org.br/criseseemergencias/">BAE em crises</a>
+            <a href="campanha">Campanha</a>
+        </li>
+        <li>
+            <a href="criseseemergencias">BAE em crises</a>
         </li>
         <li>
             <a href="//biblioteca.buscaativaescolar.org.br/">Biblioteca</a>
