@@ -427,7 +427,9 @@
                                 <div style="font-size: 28px">Destaques</div>
                             </h2>
 
-                            <p><b>A Busca Ativa Escolar foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o <a>Guia Busca Ativa Escolar em crises e emergências</a>. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. <a target="_blank" href="https://buscaativaescolar.org.br/criseseemergencias">Clique aqui e saiba mais.</a></b></p>
+                            <p><b>A Busca Ativa Escolar disponibilizou uma série de materiais e orientações para que municípios e estados possam montar suas próprias <a>campanhas de comunicação</a> para enfrentar o abandono e a exclusão escolares. <a target="_blank" href="campanha">Clique aqui e saiba mais.</a></b></p>
+                            <br />
+                            <p><b>A estratégia também foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o <a>Guia Busca Ativa Escolar em crises e emergências</a>. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. <a target="_blank" href="criseseemergencias">Clique aqui e saiba mais.</a></b></p>
                             <br/>
                             <p><b>Outro material importante é o <a>Guia de para uso da funcionalidade de acompanhamento de frequência escolar</a>, que colabora para que os(as) gestores(as) possam acompanhar a situação das redes municipais e estaduais e tomar decisões rápidas a fim de prevenir o abandono escolar. <a target="_blank" href="https://biblioteca.buscaativaescolar.org.br/material/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar">Clique aqui e saiba mais.</a></b></p>
                             <br/>
