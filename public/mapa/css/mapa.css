@@ -1,0 +1,83 @@
+#titleTooltip{
+	font-weight:bold;
+	position:absolute;
+	border-radius:3px;
+	color:white;
+	background:#1E1E1E;
+	border:1px solid #fff;
+	padding:5px 15px;
+	font-family:monospace;
+	z-index:10;
+	font-size:13px;
+	max-width:300px;
+	text-align:center;
+	display:none;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+#barra{
+	background-color: #00AEEF;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.item{
+	width: 500px;
+}
+#tabela{
+	margin-left: 200px;
+}
+#svg-map{
+
+	width:500px;
+	height:500px;
+	stroke:rgba(0,0,0,0.5);
+	padding:0;
+}
+
+#svg-map a path{
+	stroke: rgba(51, 122, 183, 0.3)
+}	
+#svg-map a path:not([fill]){ 
+	fill:rgba(0,128,0,0.01);
+}
+
+#svg-map text { 
+	font:12px Arial-BoldMT, sans-serif; 
+	fill:#222;
+}
+#svg-map a{ 
+	text-decoration:none;
+	cursor:pointer;
+}
+#svg-map a:hover path{ 
+	transition-duration:0.4s;
+	fill:#00AEEF !important ;
+	stroke:#20697F;
+}
+#svg-map a circle{ 
+	stroke:rgba(0,0,0,0.15);
+}
+#svg-map a circle:not([fill]){
+	fill:rgba(50,205,50,0.1); 
+}
+#svg-map a:hover circle{
+	transition-duration:0.4s;
+	fill:#fff !important;
+	stroke:green;
+}
+
+
+
+  /* demo styles */
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+  body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+  }
